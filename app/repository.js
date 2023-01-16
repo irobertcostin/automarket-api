@@ -25,4 +25,25 @@ export function getCars() {
 }
 
 
+export async function getAllMakers(){
+
+    let data = await getCars();
+    data = data.cars;
+
+    let arr=[];
+
+    for(let i=0;i<data.length;i++){
+    
+            if(arr.includes(data[i].maker)===false){
+
+                arr.push(data[i].maker)
+            }
+    }
+
+    arr.sort();
+    return arr;
+
+}
+
+
 //test

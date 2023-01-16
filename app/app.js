@@ -1,4 +1,4 @@
-import { getCars } from "./repository.js";
+import { getCars,getAllMakers } from "./repository.js";
 
 import express,{json} from "express";
 
@@ -30,6 +30,15 @@ app.get('/all-cars',async (request,response)=>{
 
 })
 
+
+app.get('/all-cars/all-makers',async(request,response)=>{
+
+    // console.log("test")
+    const allMakers = await getAllMakers();
+    // console.log("trece de await?")
+
+    response.json(allMakers);
+})
 
 
 // the port through which the node app can be listened
