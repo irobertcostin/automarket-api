@@ -1,4 +1,4 @@
-import { getCars,getAllMakers } from "./repository.js";
+import { getCars,getAllMakers,getAllModelsByMaker } from "./repository.js";
 
 import express,{json} from "express";
 
@@ -38,6 +38,20 @@ app.get('/all-cars/all-makers',async(request,response)=>{
     // console.log("trece de await?")
 
     response.json(allMakers);
+})
+
+
+app.get('/all-cars/all-models/maker=:maker',async(request,response)=>{
+
+    
+    let maker = request.params.maker;
+    // console.log(maker)
+    let allModelsByMaker = await getAllModelsByMaker(maker);  
+    // console.log(allModelsByMaker)
+    response.json(allModelsByMaker)
+
+
+
 })
 
 

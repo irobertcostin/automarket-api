@@ -46,4 +46,27 @@ export async function getAllMakers(){
 }
 
 
-//test
+export async function getAllModelsByMaker(maker){
+
+
+    let data = await getCars();
+    data = data.cars;
+
+    let arr = [];
+
+    for(let i=0;i<data.length;i++){
+
+        if(data[i].maker==maker){
+            if(arr.includes(data[i].model)===false){
+
+                arr.push(data[i].model)
+            }
+    }
+
+        }
+    
+
+arr.sort();
+// console.log(arr)
+return arr;
+}
