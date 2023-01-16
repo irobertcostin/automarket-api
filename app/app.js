@@ -1,6 +1,6 @@
-import { getCars,getAllMakers,getAllModelsByMaker } from "./repository.js";
+import { getCars,getAllMakers,getAllModelsByMaker,getAllCarsByModel,getAllCarsByMaker } from "./repository.js";
 
-import express,{json} from "express";
+import express,{json, request, response} from "express";
 
 import cors from "cors";
 
@@ -21,9 +21,9 @@ app.use(cors());
 // GET all data 
 
 app.get('/all-cars',async (request,response)=>{
-    console.log("ajunge?")
+    // console.log("ajunge?")
     const cars = await getCars();
-    console.log("test")
+    // console.log("test")
     
     response.json(cars)
 
@@ -41,7 +41,7 @@ app.get('/all-cars/all-makers',async(request,response)=>{
 })
 
 
-app.get('/all-cars/all-models/maker=:maker',async(request,response)=>{
+app.get('/all-cars/models-by-maker/maker=:maker',async(request,response)=>{
 
     
     let maker = request.params.maker;
@@ -51,6 +51,28 @@ app.get('/all-cars/all-models/maker=:maker',async(request,response)=>{
     response.json(allModelsByMaker)
 
 
+
+})
+
+
+
+app.get('/all-cars/cars-by-model/model=:model',async(request,response)=>{
+
+    let model = request.params.model;
+    // console.log(model)
+    let allCarsByModel= await  getAllCarsByModel(model);
+    response.json(allCarsByModel)
+
+
+})
+
+
+app.get('/all-cars/cars-by-maker/maker=:maker',async(request,response)=>{
+
+    let maker = request.params.maker;
+
+    let allCarsByMaker=await getAllCarsByMaker(maker);
+    response.json(allCarsByMaker)
 
 })
 

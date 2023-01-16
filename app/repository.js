@@ -70,3 +70,52 @@ arr.sort();
 // console.log(arr)
 return arr;
 }
+
+
+export async function getAllCarsByModel(model){
+
+    let data = await getCars();
+    data= data.cars;
+
+    let arr=[];
+
+    for(let i=0;i<data.length;i++){
+        
+        if(data[i].model===model){
+
+            // console.log(data[i]);
+
+            if(arr.includes(data[i])===false){
+                // console.log(data[i])
+                arr.push(data[i]);
+            }
+
+        }
+
+
+    }
+
+    // arr.sort();
+    return arr;
+
+}
+
+export async function getAllCarsByMaker(maker){
+
+
+    let data = await getCars();
+    data= data.cars;
+
+    let arr=[];
+
+    for(let i=0;i<data.length;i++){
+
+        if(data[i].maker==maker){
+            arr.push(data[i]);
+        }
+
+    }
+
+    // arr.sort();
+    return arr;
+}
