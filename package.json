@@ -1,0 +1,19 @@
+{
+  "name": "automarket-back-end",
+  "version": "1.0.0",
+  "description": "expressJS backend for automarket webapp",
+  "main": "app.js",
+  "scripts": {
+    "start":"nodemon ./app/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
