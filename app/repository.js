@@ -34,7 +34,7 @@ export async function save(data){
             if(err){
                 reject(err);
             }else{
-                console.log("test")
+                console.log("salveaza")
                 resolve();
             }
         })
@@ -135,6 +135,33 @@ export async function getAllCarsByMaker(maker){
 
     // arr.sort();
     return arr;
+}
+
+export async function addCar(car){
+
+    // get data
+    let data = await getCars();
+    
+    // array of ids, every element from data is mapped within
+    let ids = data.cars.map(e=>e.id)
+
+    // generate id, random uint between 1 and 3001
+    let id = Math.floor(Math.random()*3000+1)
+
+    // while ids includes the previous generated id, keep generating
+    while(ids.includes(id)===true){
+        id=Math.floor(Math.random()*1000+1);
+    }
+
+    // after no longer generating, the id is assigned to the new car
+    car.id=id;
+
+    // push the car to data
+    data.cars.push(car);
+
+    // write file to newest version
+    await save(data);
+
 }
 
 
