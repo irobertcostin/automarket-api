@@ -25,6 +25,23 @@ export function getCars() {
 }
 
 
+export async function save(data){
+
+    return new Promise ((resolve,reject)=>{
+
+        fs.writeFile(("data.json"),JSON.stringify(data),(err,data)=>{
+
+            if(err){
+                reject(err);
+            }else{
+                console.log("test")
+                resolve();
+            }
+        })
+    })
+}
+
+
 export async function getAllMakers(){
 
     let data = await getCars();
@@ -119,3 +136,5 @@ export async function getAllCarsByMaker(maker){
     // arr.sort();
     return arr;
 }
+
+
