@@ -165,3 +165,11 @@ export async function addCar(car){
 }
 
 
+export async function deleteCar(id){
+
+    let data = await getCars();
+    data.cars=data.cars.filter(e=>e.id!=id);
+    save(data);
+}
+
+
