@@ -1,4 +1,4 @@
-import { getCars,getAllMakers,getAllModelsByMaker,getAllCarsByModel,getAllCarsByMaker } from "./repository.js";
+import { getCars,getAllMakers,getAllModelsByMaker,getAllCarsByModel,getAllCarsByMaker,addCar,deleteCar } from "./repository.js";
 
 import express,{json, request, response} from "express";
 
@@ -77,11 +77,38 @@ app.get('/all-cars/cars-by-maker/maker=:maker',async(request,response)=>{
 })
 
 
+app.post('/new-car',async(request,response)=>{
+
+    let car = {
+
+        maker: request.body.maker,
+        model: request.body.model,
+        year: request.body.year,
+        price: request.body.price,
+        mileage: request.body.mileage
+
+    }
+
+    await addCar(car);
+
+    // json response, of a JSON stringified object
+    response.json(JSON.stringify(car));
+
+})
+
+
+app.delete('/all-cars/delete/id=:id', async (request,response)=>{
+
+    let id = request.params.id;
+    await deleteCar(id)
+
+    response.json("ok");
+
+})
+
+
 // the port through which the node app can be listened
 app.listen(3030,()=>{
 
     console.log("listen")
 })
-
-
-// testing 
