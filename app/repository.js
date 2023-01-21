@@ -14,15 +14,18 @@ export function getCars() {
                 // transform the response data to JSON
                 const json=JSON.parse(data);
                 // responde with a JSON 
+                
                 response(json);
+                
 
             }
         })
-
+        
 
 
     })
 }
+
 
 
 export async function save(data){
@@ -34,10 +37,12 @@ export async function save(data){
             if(err){
                 reject(err);
             }else{
-                console.log("salveaza")
+                
                 resolve();
             }
         })
+
+        
     })
 }
 
@@ -147,7 +152,7 @@ export async function addCar(car){
 
     // generate id, random uint between 1 and 3001
     let id = Math.floor(Math.random()*3000+1)
-
+i
     // while ids includes the previous generated id, keep generating
     while(ids.includes(id)===true){
         id=Math.floor(Math.random()*1000+1);
@@ -169,7 +174,10 @@ export async function deleteCar(id){
 
     let data = await getCars();
     data.cars=data.cars.filter(e=>e.id!=id);
-    save(data);
+    console.log(data.cars[0]);
+    // await save(data);
 }
+
+
 
 
