@@ -1,4 +1,4 @@
-import { getCars,getAllMakers,getAllModelsByMaker,getAllCarsByModel,getAllCarsByMaker,addCar,deleteCar, getCarById } from "./repository.js";
+import { getCars,getAllMakers,getAllModelsByMaker,getAllCarsByModel,getAllCarsByMaker,addCar,deleteCar, getCarById, editCar } from "./repository.js";
 
 import express,{json, request, response} from "express";
 
@@ -109,6 +109,35 @@ app.post('/new-car',async(request,response)=>{
 
 })
 
+app.put('/edit-car/car-id=:id',async(request,response)=>{
+
+    // cerem id din request
+    let id = request.params.id
+    // console.log(id)
+    
+    // console.log(request.params.id)
+    // definim un obiect, pentru care cerem elemente scrise in body , pentru a popula obiectul
+    let car = {
+
+        maker: request.body.maker,
+        model: request.body.model,
+        year: request.body.year,
+        price: request.body.price,
+        mileage: request.body.mileage
+
+    }
+
+    // console.log(car)
+
+    // editam obiectul, trimitem masina noua si un id, pentru care se va inlocui masina
+    await editCar(car,id);
+
+    
+    // json response, of a JSON stringified object
+    return response.json(JSON.stringify(car));
+    
+})
+
 
 app.delete('/all-cars/delete/id=:id', async (request,response)=>{
 
@@ -123,5 +152,5 @@ app.delete('/all-cars/delete/id=:id', async (request,response)=>{
 // the port through which the node app can be listened
 app.listen(3030,()=>{
 
-    console.log("listen")
+    // console.log("listen")
 })
