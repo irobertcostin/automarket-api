@@ -1,1 +1,1474 @@
-{"cars":[{"maker":"Studebaker","model":"Avanti","year":1961,"price":"$38147.01","mileage":136231},{"maker":"Isuzu","model":"Amigo","year":1993,"price":"$20888.28","mileage":234112},{"maker":"Oldsmobile","model":"LSS","year":1999,"price":"$143631.10","mileage":51306},{"maker":"Subaru","model":"SVX","year":1997,"price":"$128785.75","mileage":171129},{"maker":"Mazda","model":"Mazda3","year":2006,"price":"$69912.35","mileage":62332},{"maker":"Buick","model":"LeSabre","year":1992,"price":"$78130.51","mileage":20593},{"maker":"Buick","model":"Verano","year":2012,"price":"$123447.83","mileage":203075},{"maker":"Chevrolet","model":"Impala","year":2008,"price":"$45154.35","mileage":204894},{"maker":"Mazda","model":"Mazda3","year":2005,"price":"$124590.81","mileage":91772},{"maker":"Lexus","model":"RX","year":1999,"price":"$122635.44","mileage":240391},{"maker":"Toyota","model":"Camry","year":1996,"price":"$87830.64","mileage":171739},{"maker":"Ford","model":"F-Series","year":2009,"price":"$71518.56","mileage":25475},{"maker":"Ford","model":"F-Series","year":1986,"price":"$114095.34","mileage":7784},{"maker":"Cadillac","model":"Escalade","year":2003,"price":"$165752.58","mileage":257263},{"maker":"Saturn","model":"Outlook","year":2007,"price":"$156348.89","mileage":294896},{"maker":"Buick","model":"Century","year":1988,"price":"$189965.36","mileage":221737},{"maker":"Mazda","model":"MPV","year":2001,"price":"$10408.37","mileage":239077},{"maker":"Ford","model":"Mustang","year":1967,"price":"$20417.82","mileage":19650},{"maker":"Oldsmobile","model":"Bravada","year":1994,"price":"$159405.88","mileage":58510},{"maker":"Chrysler","model":"Sebring","year":1996,"price":"$8665.17","mileage":127894},{"maker":"Aston Martin","model":"Vantage","year":2011,"price":"$24946.40","mileage":62852},{"maker":"BMW","model":"645","year":2005,"price":"$130672.74","mileage":184044},{"maker":"Mitsubishi","model":"Montero","year":2006,"price":"$117384.71","mileage":102549},{"maker":"Mitsubishi","model":"Eclipse","year":2011,"price":"$19724.94","mileage":216888},{"maker":"Ferrari","model":"F430 Spider","year":2006,"price":"$98413.21","mileage":276881},{"maker":"Plymouth","model":"Breeze","year":2000,"price":"$139912.98","mileage":230297},{"maker":"Mercury","model":"Capri","year":1994,"price":"$77427.61","mileage":299394},{"maker":"Toyota","model":"Camry Hybrid","year":2011,"price":"$164115.23","mileage":129028},{"maker":"Dodge","model":"Ram","year":2003,"price":"$93784.19","mileage":100969},{"maker":"Jeep","model":"Grand Cherokee","year":1994,"price":"$195107.33","mileage":25212},{"maker":"Saab","model":"9-3","year":1999,"price":"$120258.01","mileage":46197},{"maker":"Honda","model":"Odyssey","year":2012,"price":"$122766.94","mileage":290106},{"maker":"Chrysler","model":"Concorde","year":1998,"price":"$118325.09","mileage":284196},{"maker":"Pontiac","model":"Grand Prix","year":1986,"price":"$44119.71","mileage":65657},{"maker":"Mitsubishi","model":"GTO","year":1993,"price":"$62946.42","mileage":104374},{"maker":"Infiniti","model":"QX","year":1999,"price":"$187063.34","mileage":103762},{"maker":"Oldsmobile","model":"Cutlass Supreme","year":1995,"price":"$91908.20","mileage":58308},{"maker":"Suzuki","model":"SJ","year":1993,"price":"$181412.34","mileage":236886},{"maker":"Dodge","model":"Ram 1500","year":2000,"price":"$124600.14","mileage":139149},{"maker":"Ford","model":"Bronco","year":1988,"price":"$154916.05","mileage":60474},{"maker":"Infiniti","model":"QX","year":2003,"price":"$167455.98","mileage":103542},{"maker":"Chevrolet","model":"Monte Carlo","year":2002,"price":"$198021.20","mileage":171553},{"maker":"Lincoln","model":"Navigator","year":1998,"price":"$115420.74","mileage":157188},{"maker":"Suzuki","model":"Grand Vitara","year":2005,"price":"$69245.30","mileage":152217},{"maker":"Mercedes-Benz","model":"CL-Class","year":1999,"price":"$33303.27","mileage":215486},{"maker":"Mercury","model":"Topaz","year":1985,"price":"$27077.06","mileage":255781},{"maker":"Honda","model":"Passport","year":2002,"price":"$3788.35","mileage":115144},{"maker":"Pontiac","model":"Sunfire","year":1997,"price":"$100323.95","mileage":169785},{"maker":"Dodge","model":"Stratus","year":2002,"price":"$16946.53","mileage":27848},{"maker":"Ford","model":"Mustang","year":1983,"price":"$157050.19","mileage":203370},{"maker":"Nissan","model":"Sentra","year":2009,"price":"$177028.43","mileage":93734},{"maker":"Chevrolet","model":"Impala","year":2008,"price":"$171696.41","mileage":72458},{"maker":"Isuzu","model":"Space","year":1992,"price":"$150981.22","mileage":181757},{"maker":"Volkswagen","model":"Golf","year":1990,"price":"$68495.18","mileage":178162},{"maker":"Mitsubishi","model":"Diamante","year":2000,"price":"$165679.06","mileage":48711},{"maker":"Ford","model":"Aerostar","year":1989,"price":"$71987.24","mileage":265496},{"maker":"Ford","model":"F-Series","year":1996,"price":"$18659.52","mileage":238790},{"maker":"Suzuki","model":"Aerio","year":2006,"price":"$69593.68","mileage":200887},{"maker":"Lotus","model":"Esprit","year":2004,"price":"$44687.46","mileage":111709},{"maker":"Lincoln","model":"Mark LT","year":2007,"price":"$140155.42","mileage":259837},{"maker":"GMC","model":"Yukon XL 2500","year":2003,"price":"$54489.09","mileage":38553},{"maker":"GMC","model":"Suburban 1500","year":1999,"price":"$94986.94","mileage":174292},{"maker":"Ford","model":"Explorer Sport Trac","year":2000,"price":"$138954.22","mileage":151129},{"maker":"Nissan","model":"JUKE","year":2011,"price":"$25939.23","mileage":181736},{"maker":"Cadillac","model":"CTS","year":2005,"price":"$5070.52","mileage":132418},{"maker":"Lotus","model":"Elan","year":1993,"price":"$195771.55","mileage":162912},{"maker":"Porsche","model":"944","year":1989,"price":"$94385.39","mileage":228468},{"maker":"Ford","model":"Crown Victoria","year":2009,"price":"$183186.73","mileage":240600},{"maker":"Pontiac","model":"Grand Prix","year":1968,"price":"$40672.65","mileage":259395},{"maker":"Saturn","model":"Aura","year":2007,"price":"$20958.93","mileage":71156},{"maker":"Toyota","model":"Highlander","year":2011,"price":"$53201.59","mileage":188162},{"maker":"Merkur","model":"XR4Ti","year":1985,"price":"$169772.84","mileage":157228},{"maker":"Chevrolet","model":"Sportvan G20","year":1994,"price":"$16133.07","mileage":213125},{"maker":"Chevrolet","model":"Express 1500","year":2002,"price":"$2761.08","mileage":237011},{"maker":"Ford","model":"Focus","year":2007,"price":"$30728.85","mileage":195675},{"maker":"Ford","model":"Thunderbird","year":1972,"price":"$114739.61","mileage":239456},{"maker":"Lexus","model":"IS","year":2011,"price":"$158641.96","mileage":172262},{"maker":"Cadillac","model":"Escalade ESV","year":2009,"price":"$154732.60","mileage":206046},{"maker":"Maybach","model":"62","year":2011,"price":"$93161.52","mileage":206248},{"maker":"Ford","model":"Explorer","year":2008,"price":"$16609.03","mileage":292978},{"maker":"Ford","model":"Laser","year":1985,"price":"$3630.32","mileage":13149},{"maker":"Dodge","model":"Dakota Club","year":1999,"price":"$64796.49","mileage":129105},{"maker":"Oldsmobile","model":"Bravada","year":1998,"price":"$184303.18","mileage":223798},{"maker":"Chevrolet","model":"Suburban 1500","year":1993,"price":"$37597.21","mileage":56366},{"maker":"GMC","model":"2500","year":1993,"price":"$68610.14","mileage":230166},{"maker":"Chrysler","model":"Cirrus","year":1998,"price":"$107198.84","mileage":64721},{"maker":"Ford","model":"LTD Crown Victoria","year":1993,"price":"$181940.54","mileage":141896},{"maker":"Isuzu","model":"Ascender","year":2009,"price":"$96385.36","mileage":193791},{"maker":"Subaru","model":"Legacy","year":1994,"price":"$156358.38","mileage":270059},{"maker":"Hyundai","model":"Elantra","year":1998,"price":"$69395.01","mileage":183393},{"maker":"Ford","model":"Laser","year":1984,"price":"$63600.57","mileage":133866},{"maker":"Mitsubishi","model":"Endeavor","year":2010,"price":"$67483.14","mileage":256798},{"maker":"Kia","model":"Amanti","year":2008,"price":"$140050.47","mileage":83938},{"maker":"Mazda","model":"Mazda3","year":2009,"price":"$16854.02","mileage":210312},{"maker":"Buick","model":"Riviera","year":1998,"price":"$18852.76","mileage":106935},{"maker":"Volvo","model":"V70","year":2000,"price":"$185934.13","mileage":218347},{"maker":"Chevrolet","model":"2500","year":1999,"price":"$43085.26","mileage":60669},{"maker":"GMC","model":"Sierra 1500","year":2003,"price":"$191852.13","mileage":246285},{"maker":"Chevrolet","model":"Silverado 1500","year":2007,"price":"$123952.75","mileage":143888},{"maker":"Bentley","model":"Continental Flying Spur","year":2011,"price":"$29713.89","mileage":134973},{"maker":"Oldsmobile","model":"88","year":1998,"price":"$174276.20","mileage":285349},{"maker":"Mercury","model":"Capri","year":1994,"price":"$94437.12","mileage":6013},{"maker":"Mazda","model":"Navajo","year":1992,"price":"$144695.11","mileage":9884},{"maker":"Saturn","model":"Ion","year":2006,"price":"$162470.24","mileage":133260},{"maker":"Lincoln","model":"Aviator","year":2005,"price":"$185496.10","mileage":200532},{"maker":"Porsche","model":"Boxster","year":2010,"price":"$11193.14","mileage":256327},{"maker":"Ford","model":"EXP","year":1985,"price":"$99981.06","mileage":196019},{"maker":"Saturn","model":"Ion","year":2004,"price":"$89744.00","mileage":66777},{"maker":"Volkswagen","model":"GTI","year":2011,"price":"$68351.35","mileage":233372},{"maker":"GMC","model":"2500","year":1997,"price":"$34506.21","mileage":172845},{"maker":"Ford","model":"Ranger","year":2007,"price":"$5463.48","mileage":268254},{"maker":"Lincoln","model":"LS","year":2005,"price":"$161497.41","mileage":27813},{"maker":"Pontiac","model":"Firebird","year":1999,"price":"$176178.51","mileage":207035},{"maker":"Mazda","model":"Protege","year":1996,"price":"$152123.63","mileage":46841},{"maker":"Mercedes-Benz","model":"SL-Class","year":1985,"price":"$115312.67","mileage":214915},{"maker":"Pontiac","model":"LeMans","year":1966,"price":"$169164.07","mileage":169934},{"maker":"Jeep","model":"Cherokee","year":1995,"price":"$131160.12","mileage":281489},{"maker":"Infiniti","model":"G37","year":2011,"price":"$84164.76","mileage":68610},{"maker":"Mazda","model":"B-Series","year":1992,"price":"$135025.57","mileage":270934},{"maker":"Mitsubishi","model":"Outlander","year":2006,"price":"$176760.00","mileage":46484},{"maker":"Lexus","model":"ES","year":2012,"price":"$109937.89","mileage":91765},{"maker":"Mercedes-Benz","model":"SL-Class","year":2006,"price":"$78267.64","mileage":263641},{"maker":"Toyota","model":"RAV4","year":1998,"price":"$110461.98","mileage":98833},{"maker":"Lexus","model":"IS-F","year":2011,"price":"$104892.56","mileage":103120},{"maker":"Lexus","model":"IS-F","year":2009,"price":"$37740.71","mileage":61979},{"maker":"Eagle","model":"Summit","year":1996,"price":"$164885.36","mileage":62798},{"maker":"Hyundai","model":"Azera","year":2007,"price":"$98633.25","mileage":93437},{"maker":"Bentley","model":"Continental GTC","year":2009,"price":"$56070.92","mileage":221639},{"maker":"Toyota","model":"Tercel","year":1996,"price":"$135314.55","mileage":103742},{"maker":"Cadillac","model":"Seville","year":2004,"price":"$113861.54","mileage":234087},{"maker":"Lexus","model":"ES","year":1997,"price":"$158956.95","mileage":98600},{"maker":"Maserati","model":"Spyder","year":2004,"price":"$69056.84","mileage":128500},{"maker":"MINI","model":"Cooper Clubman","year":2012,"price":"$81855.95","mileage":56375},{"maker":"Mercedes-Benz","model":"SL-Class","year":2004,"price":"$167773.18","mileage":10912},{"maker":"Volvo","model":"240","year":1992,"price":"$62061.00","mileage":40309},{"maker":"Maserati","model":"Gran Sport","year":2006,"price":"$54885.20","mileage":151220},{"maker":"Chevrolet","model":"Suburban 1500","year":2003,"price":"$9131.65","mileage":231984},{"maker":"Nissan","model":"Quest","year":2012,"price":"$108459.40","mileage":5939},{"maker":"Chevrolet","model":"Cobalt SS","year":2009,"price":"$94423.41","mileage":147795},{"maker":"Aston Martin","model":"V8 Vantage","year":2011,"price":"$142408.27","mileage":75864},{"maker":"Scion","model":"xD","year":2008,"price":"$37683.13","mileage":88338},{"maker":"Ford","model":"Explorer Sport Trac","year":2009,"price":"$130315.34","mileage":10728},{"maker":"Nissan","model":"Armada","year":2006,"price":"$61868.85","mileage":257641},{"maker":"Maybach","model":"62","year":2008,"price":"$14090.24","mileage":276769},{"maker":"Dodge","model":"Ram 2500","year":2002,"price":"$133319.71","mileage":56385},{"maker":"MINI","model":"Cooper Countryman","year":2012,"price":"$156713.10","mileage":29484},{"maker":"Volkswagen","model":"GTI","year":2012,"price":"$104727.00","mileage":161726},{"maker":"Pontiac","model":"Firefly","year":1986,"price":"$162125.41","mileage":289503},{"maker":"Ford","model":"Ranger","year":2010,"price":"$86538.23","mileage":171025},{"maker":"Pontiac","model":"Grand Am","year":1998,"price":"$83819.38","mileage":14330},{"maker":"Subaru","model":"Loyale","year":1993,"price":"$177934.18","mileage":80882},{"maker":"GMC","model":"Envoy XL","year":2006,"price":"$95170.51","mileage":99735},{"maker":"Audi","model":"A4","year":2011,"price":"$54541.58","mileage":6689},{"maker":"Mitsubishi","model":"Galant","year":1998,"price":"$24382.05","mileage":192443},{"maker":"Mazda","model":"MX-3","year":1995,"price":"$141469.41","mileage":99030},{"maker":"Infiniti","model":"G","year":2011,"price":"$13663.76","mileage":23829},{"maker":"Buick","model":"Coachbuilder","year":1993,"price":"$72500.08","mileage":153530},{"maker":"Jeep","model":"Wrangler","year":1993,"price":"$38225.02","mileage":143660},{"maker":"Lincoln","model":"MKS","year":2011,"price":"$17316.05","mileage":73556},{"maker":"Ford","model":"Expedition EL","year":2011,"price":"$25575.11","mileage":45414},{"maker":"Toyota","model":"Supra","year":1998,"price":"$20627.16","mileage":113468},{"maker":"Volkswagen","model":"Type 2","year":1989,"price":"$26527.41","mileage":125263},{"maker":"Nissan","model":"Pathfinder","year":2010,"price":"$76563.84","mileage":152067},{"maker":"Mitsubishi","model":"Pajero","year":2006,"price":"$86468.62","mileage":162310},{"maker":"Audi","model":"A5","year":2008,"price":"$84859.39","mileage":87538},{"maker":"GMC","model":"Savana 1500","year":2001,"price":"$160702.08","mileage":12256},{"maker":"Volvo","model":"V40","year":2003,"price":"$18650.60","mileage":172368},{"maker":"Chevrolet","model":"Equinox","year":2011,"price":"$15590.85","mileage":72239},{"maker":"Chevrolet","model":"SSR","year":2005,"price":"$1547.53","mileage":180415},{"maker":"Mitsubishi","model":"Chariot","year":1990,"price":"$10528.27","mileage":191562},{"maker":"Mercury","model":"Marauder","year":2004,"price":"$112139.24","mileage":159995},{"maker":"Mercedes-Benz","model":"E-Class","year":1984,"price":"$34253.60","mileage":182231},{"maker":"Nissan","model":"Pathfinder","year":2000,"price":"$178771.56","mileage":36514},{"maker":"Pontiac","model":"GTO","year":1974,"price":"$69276.81","mileage":294861},{"maker":"Dodge","model":"Dakota Club","year":2005,"price":"$189083.67","mileage":238307},{"maker":"Ferrari","model":"F430","year":2007,"price":"$108040.10","mileage":261959},{"maker":"Maserati","model":"GranTurismo","year":2009,"price":"$192183.82","mileage":121068},{"maker":"Audi","model":"4000s","year":1986,"price":"$32150.55","mileage":43720},{"maker":"Chevrolet","model":"G-Series G10","year":1994,"price":"$151916.31","mileage":274204},{"maker":"Dodge","model":"Caravan","year":2001,"price":"$71769.89","mileage":201836},{"maker":"Maserati","model":"430","year":1991,"price":"$110888.53","mileage":270172},{"maker":"Ford","model":"F150","year":1992,"price":"$137536.83","mileage":235784},{"maker":"Kia","model":"Forte","year":2010,"price":"$72168.35","mileage":79784},{"maker":"Volkswagen","model":"Jetta","year":1987,"price":"$57006.80","mileage":286439},{"maker":"Saab","model":"900","year":1997,"price":"$20091.58","mileage":234959},{"maker":"Volvo","model":"C70","year":2010,"price":"$138011.14","mileage":114838},{"maker":"Acura","model":"NSX","year":1996,"price":"$188695.36","mileage":146855},{"maker":"Cadillac","model":"Escalade EXT","year":2012,"price":"$16119.38","mileage":104329},{"maker":"Volkswagen","model":"GTI","year":1993,"price":"$174752.59","mileage":183877},{"maker":"Mazda","model":"Navajo","year":1991,"price":"$50746.17","mileage":291686},{"maker":"Ford","model":"E150","year":2008,"price":"$151202.95","mileage":106814},{"maker":"Dodge","model":"Ram Van B350","year":1994,"price":"$179553.67","mileage":259310},{"maker":"Dodge","model":"Stratus","year":1998,"price":"$195155.79","mileage":26945},{"maker":"Mercury","model":"Tracer","year":1994,"price":"$42058.11","mileage":48237},{"maker":"Jaguar","model":"XF","year":2011,"price":"$19423.14","mileage":190590},{"maker":"Toyota","model":"Tacoma","year":2011,"price":"$136489.69","mileage":143457},{"maker":"Pontiac","model":"Sunbird","year":1989,"price":"$105995.31","mileage":295454},{"maker":"Chrysler","model":"Town & Country","year":2002,"price":"$36073.33","mileage":182739},{"maker":"Ford","model":"Thunderbird","year":1985,"price":"$91930.92","mileage":196504},{"maker":"Hummer","model":"H2 SUT","year":2006,"price":"$13255.54","mileage":215065},{"maker":"Toyota","model":"Yaris","year":2008,"price":"$91398.14","mileage":210504},{"maker":"Toyota","model":"Corolla","year":2005,"price":"$65507.70","mileage":270563},{"maker":"Mercedes-Benz","model":"M-Class","year":1998,"price":"$89167.96","mileage":189890},{"maker":"Oldsmobile","model":"Achieva","year":1995,"price":"$113170.83","mileage":115831},{"maker":"Mazda","model":"RX-7","year":1995,"price":"$146429.90","mileage":65256},{"maker":"Honda","model":"Civic","year":1985,"price":"$75853.89","mileage":272159},{"maker":"Chrysler","model":"300M","year":1999,"price":"$151107.51","mileage":225118},{"maker":"Nissan","model":"Armada","year":2008,"price":"$39336.43","mileage":2638},{"maker":"Cadillac","model":"Eldorado","year":2001,"price":"$37941.45","mileage":79524},{"maker":"Ford","model":"F350","year":2001,"price":"$152552.87","mileage":152725},{"maker":"Cadillac","model":"Escalade ESV","year":2005,"price":"$117551.71","mileage":64007},{"maker":"Pontiac","model":"G5","year":2007,"price":"$110302.26","mileage":82393},{"maker":"Maserati","model":"GranTurismo","year":2010,"price":"$145484.38","mileage":106981},{"maker":"Chevrolet","model":"Blazer","year":1999,"price":"$180281.43","mileage":63648},{"maker":"BMW","model":"330","year":2006,"price":"$170087.68","mileage":18501},{"maker":"Chevrolet","model":"Camaro","year":2002,"price":"$46623.33","mileage":291764},{"maker":"GMC","model":"1500","year":1994,"price":"$77050.67","mileage":26146},{"maker":"Volkswagen","model":"Golf","year":2002,"price":"$112499.09","mileage":146784},{"maker":"Mitsubishi","model":"Starion","year":1984,"price":"$67158.07","mileage":96013},{"maker":"Ford","model":"Crown Victoria","year":2010,"price":"$165878.77","mileage":220749},{"maker":"Lincoln","model":"Continental","year":1992,"price":"$80984.58","mileage":295298},{"maker":"Toyota","model":"Matrix","year":2003,"price":"$31370.01","mileage":42523},{"maker":"Audi","model":"4000","year":1987,"price":"$20838.27","mileage":200104},{"maker":"Volvo","model":"S80","year":2001,"price":"$147066.28","mileage":219204},{"maker":"Chevrolet","model":"Equinox","year":2008,"price":"$42102.84","mileage":123424},{"maker":"Hyundai","model":"HED-5","year":2012,"price":"$124324.30","mileage":225372},{"maker":"Ford","model":"Lightning","year":1994,"price":"$179390.43","mileage":216156},{"maker":"Ford","model":"Escape","year":2004,"price":"$107296.09","mileage":240024},{"maker":"Hyundai","model":"Accent","year":1997,"price":"$34139.61","mileage":125353},{"maker":"Ford","model":"F150","year":1997,"price":"$80716.77","mileage":133442},{"maker":"Dodge","model":"Dakota","year":2004,"price":"$140889.00","mileage":64901},{"maker":"Mercury","model":"Topaz","year":1992,"price":"$195381.66","mileage":73904},{"maker":"Volkswagen","model":"New Beetle","year":2004,"price":"$156642.76","mileage":20554},{"maker":"Acura","model":"SLX","year":1997,"price":"$119016.68","mileage":7332},{"maker":"Cadillac","model":"SRX","year":2011,"price":"$67717.20","mileage":110135},{"maker":"BMW","model":"M6","year":2010,"price":"$162876.03","mileage":118859},{"maker":"Pontiac","model":"Vibe","year":2007,"price":"$195919.88","mileage":19043},{"maker":"Nissan","model":"Maxima","year":2010,"price":"$171443.56","mileage":124719},{"maker":"Pontiac","model":"Tempest","year":1966,"price":"$33260.33","mileage":138027},{"maker":"Audi","model":"90","year":1988,"price":"$152651.97","mileage":168960},{"maker":"Lamborghini","model":"Countach","year":1987,"price":"$177569.54","mileage":274097},{"maker":"Mitsubishi","model":"Cordia","year":1986,"price":"$45406.94","mileage":223628},{"maker":"Dodge","model":"Magnum","year":2008,"price":"$51203.45","mileage":44999},{"maker":"Mitsubishi","model":"Challenger","year":2001,"price":"$143075.69","mileage":78443},{"maker":"Ford","model":"F250","year":1994,"price":"$191540.85","mileage":261642},{"maker":"Lamborghini","model":"Gallardo","year":2004,"price":"$173520.96","mileage":136137},{"maker":"Volvo","model":"960","year":1993,"price":"$22008.37","mileage":60538},{"maker":"Ford","model":"Freestar","year":2007,"price":"$122900.26","mileage":78873},{"maker":"Lexus","model":"LX","year":2005,"price":"$12804.33","mileage":297849},{"maker":"Volkswagen","model":"Passat","year":1995,"price":"$13534.79","mileage":270989},{"maker":"Ford","model":"Contour","year":1995,"price":"$163749.89","mileage":13723},{"maker":"Mercedes-Benz","model":"500SEL","year":1993,"price":"$27275.50","mileage":196299},{"maker":"Ford","model":"Excursion","year":2003,"price":"$40189.91","mileage":270597},{"maker":"Toyota","model":"Corolla","year":1997,"price":"$42644.77","mileage":111169},{"maker":"Chevrolet","model":"Cobalt SS","year":2009,"price":"$34973.44","mileage":56125},{"maker":"Suzuki","model":"Swift","year":1995,"price":"$51691.55","mileage":147184},{"maker":"Mercedes-Benz","model":"E-Class","year":1991,"price":"$138042.28","mileage":211645},{"maker":"Dodge","model":"Caliber","year":2007,"price":"$35112.57","mileage":52890},{"maker":"Nissan","model":"Pathfinder","year":1997,"price":"$132885.37","mileage":66987},{"maker":"Saab","model":"900","year":1984,"price":"$41114.18","mileage":67322},{"maker":"Dodge","model":"Ram 1500","year":2001,"price":"$85205.53","mileage":128593},{"maker":"GMC","model":"Yukon","year":2004,"price":"$139332.56","mileage":58947},{"maker":"GMC","model":"Jimmy","year":2001,"price":"$125618.63","mileage":273182},{"maker":"Mercedes-Benz","model":"C-Class","year":2007,"price":"$58838.14","mileage":109076},{"maker":"Honda","model":"Pilot","year":2012,"price":"$69766.40","mileage":211330},{"maker":"Ford","model":"Mustang","year":1988,"price":"$80946.76","mileage":250831},{"maker":"Audi","model":"Quattro","year":1994,"price":"$166092.85","mileage":36747},{"maker":"Lincoln","model":"Continental Mark VII","year":1988,"price":"$98905.71","mileage":119242},{"maker":"Toyota","model":"Camry","year":2006,"price":"$127124.39","mileage":246782},{"maker":"Toyota","model":"Corolla","year":2012,"price":"$15102.23","mileage":198132},{"maker":"Infiniti","model":"FX","year":2011,"price":"$167334.61","mileage":40863},{"maker":"Chevrolet","model":"S10","year":2001,"price":"$94095.80","mileage":29117},{"maker":"Ford","model":"F-Series","year":2010,"price":"$166077.57","mileage":183893},{"maker":"Saturn","model":"Ion","year":2006,"price":"$38984.36","mileage":89099},{"maker":"Mazda","model":"MX-5","year":1990,"price":"$174791.11","mileage":213810},{"maker":"Ford","model":"Escort","year":1992,"price":"$58594.87","mileage":213293},{"maker":"Hyundai","model":"Elantra","year":2000,"price":"$150194.76","mileage":220681},{"maker":"Chevrolet","model":"Corvette","year":1987,"price":"$139977.66","mileage":298802},{"maker":"Volvo","model":"XC90","year":2013,"price":"$136694.20","mileage":157254},{"maker":"Pontiac","model":"Sunbird","year":1987,"price":"$143092.31","mileage":179948},{"maker":"Toyota","model":"Matrix","year":2005,"price":"$63867.50","mileage":143896},{"maker":"Buick","model":"Century","year":1998,"price":"$191369.84","mileage":261515},{"maker":"Volkswagen","model":"CC","year":2011,"price":"$143568.78","mileage":223887},{"maker":"Chevrolet","model":"Suburban 1500","year":2012,"price":"$183652.42","mileage":50615},{"maker":"GMC","model":"Yukon","year":1997,"price":"$142751.20","mileage":48061},{"maker":"Saturn","model":"VUE","year":2003,"price":"$157182.52","mileage":128052},{"maker":"Land Rover","model":"LR2","year":2010,"price":"$136858.67","mileage":234222},{"maker":"Mercedes-Benz","model":"GLK-Class","year":2012,"price":"$99074.30","mileage":106056},{"maker":"Pontiac","model":"Grand Am","year":1995,"price":"$92218.31","mileage":66816},{"maker":"Subaru","model":"XT","year":1990,"price":"$90779.02","mileage":179767},{"maker":"Toyota","model":"RAV4","year":1999,"price":"$78126.76","mileage":286818},{"maker":"Jaguar","model":"XK","year":2009,"price":"$188470.45","mileage":250409},{"maker":"Chevrolet","model":"Silverado 3500","year":2009,"price":"$158053.02","mileage":106956},{"maker":"Lexus","model":"LS","year":2008,"price":"$130431.80","mileage":82989},{"maker":"Honda","model":"CR-V","year":2010,"price":"$115398.56","mileage":218552},{"maker":"Honda","model":"Pilot","year":2011,"price":"$171275.36","mileage":202248},{"maker":"Mitsubishi","model":"Eclipse","year":2008,"price":"$81668.17","mileage":155964},{"maker":"GMC","model":"Acadia","year":2012,"price":"$154549.98","mileage":136377},{"maker":"Honda","model":"del Sol","year":1993,"price":"$46778.83","mileage":244270},{"maker":"Dodge","model":"Ramcharger","year":1993,"price":"$125264.99","mileage":46546},{"maker":"Mitsubishi","model":"Mirage","year":2001,"price":"$4938.47","mileage":178486},{"maker":"Suzuki","model":"Daewoo Magnus","year":2004,"price":"$95662.17","mileage":79455},{"maker":"Toyota","model":"Avalon","year":1996,"price":"$122359.33","mileage":70242},{"maker":"Mitsubishi","model":"Truck","year":1996,"price":"$55278.65","mileage":25960},{"maker":"Volvo","model":"S40","year":2008,"price":"$145295.44","mileage":79157},{"maker":"BMW","model":"M Roadster","year":2008,"price":"$183803.21","mileage":118122},{"maker":"Suzuki","model":"Vitara","year":2003,"price":"$100754.69","mileage":261823},{"maker":"Nissan","model":"GT-R","year":2013,"price":"$117454.60","mileage":20948},{"maker":"GMC","model":"Yukon XL 1500","year":2003,"price":"$36369.98","mileage":221118},{"maker":"Nissan","model":"Altima","year":2000,"price":"$4280.59","mileage":76536},{"maker":"Mazda","model":"CX-5","year":2013,"price":"$71394.46","mileage":91291},{"maker":"Aston Martin","model":"Vanquish S","year":2005,"price":"$167958.06","mileage":218409},{"maker":"Porsche","model":"911","year":2002,"price":"$31582.51","mileage":188167},{"maker":"Volvo","model":"S40","year":2011,"price":"$179766.70","mileage":172952},{"maker":"Ford","model":"Aspire","year":1997,"price":"$156632.36","mileage":216890},{"maker":"Mitsubishi","model":"Galant","year":2010,"price":"$44105.82","mileage":296474},{"maker":"Volvo","model":"S60","year":2003,"price":"$59073.99","mileage":153657},{"maker":"Ford","model":"F350","year":2008,"price":"$20792.23","mileage":101716},{"maker":"Chevrolet","model":"Caprice","year":1995,"price":"$1065.05","mileage":36729},{"maker":"Lexus","model":"GS","year":2010,"price":"$109552.99","mileage":149718},{"maker":"Honda","model":"Civic","year":2004,"price":"$87249.00","mileage":89512},{"maker":"Chevrolet","model":"Cobalt","year":2009,"price":"$111302.76","mileage":275443},{"maker":"GMC","model":"Rally Wagon 2500","year":1992,"price":"$188002.55","mileage":85252},{"maker":"Toyota","model":"FJ Cruiser","year":2009,"price":"$122309.36","mileage":177692},{"maker":"BMW","model":"X6","year":2008,"price":"$1560.12","mileage":258295},{"maker":"Dodge","model":"Stratus","year":1999,"price":"$34933.84","mileage":170326},{"maker":"Mercury","model":"Cougar","year":1970,"price":"$115884.12","mileage":101118},{"maker":"Ford","model":"Taurus","year":2012,"price":"$156054.07","mileage":294224},{"maker":"Mercedes-Benz","model":"E-Class","year":2001,"price":"$191016.45","mileage":2833},{"maker":"Volvo","model":"C30","year":2008,"price":"$3141.81","mileage":129813},{"maker":"Mercedes-Benz","model":"S-Class","year":2012,"price":"$51674.76","mileage":26935},{"maker":"Ford","model":"Windstar","year":1997,"price":"$54303.76","mileage":265582},{"maker":"Toyota","model":"Matrix","year":2010,"price":"$3132.10","mileage":247070},{"maker":"Volvo","model":"XC60","year":2010,"price":"$112882.73","mileage":27455},{"maker":"Chevrolet","model":"Colorado","year":2010,"price":"$22069.23","mileage":31774},{"maker":"GMC","model":"Terrain","year":2010,"price":"$111860.61","mileage":32496},{"maker":"Oldsmobile","model":"Silhouette","year":2001,"price":"$155356.18","mileage":21629},{"maker":"BMW","model":"Z3","year":1997,"price":"$101214.32","mileage":246714},{"maker":"Buick","model":"Regal","year":2001,"price":"$104238.37","mileage":185377},{"maker":"Plymouth","model":"Voyager","year":1997,"price":"$15936.99","mileage":135505},{"maker":"Buick","model":"LeSabre","year":2004,"price":"$121030.16","mileage":225930},{"maker":"Volkswagen","model":"New Beetle","year":2006,"price":"$10062.91","mileage":75108},{"maker":"GMC","model":"Envoy XL","year":2006,"price":"$16062.76","mileage":261260},{"maker":"Lincoln","model":"Continental","year":2002,"price":"$138467.22","mileage":90903},{"maker":"Mitsubishi","model":"Eclipse","year":2006,"price":"$60065.00","mileage":158382},{"maker":"Volvo","model":"S60","year":2001,"price":"$97032.00","mileage":107339},{"maker":"Mitsubishi","model":"Eclipse","year":2009,"price":"$29392.72","mileage":103036},{"maker":"Saab","model":"9-5","year":2004,"price":"$144091.05","mileage":250587},{"maker":"Pontiac","model":"6000","year":1984,"price":"$157127.70","mileage":29146},{"maker":"Ford","model":"Escort","year":1993,"price":"$95725.83","mileage":2562},{"maker":"Infiniti","model":"EX","year":2012,"price":"$161093.52","mileage":225490},{"maker":"Lexus","model":"IS-F","year":2011,"price":"$186649.87","mileage":124246},{"maker":"Ford","model":"Freestyle","year":2005,"price":"$197407.55","mileage":67218},{"maker":"Dodge","model":"Ram 1500","year":2010,"price":"$191477.52","mileage":143778},{"maker":"Toyota","model":"Sienna","year":2008,"price":"$55604.63","mileage":141809},{"maker":"Nissan","model":"Pathfinder","year":2002,"price":"$174226.74","mileage":262487},{"maker":"Dodge","model":"Ram 3500","year":1998,"price":"$119467.58","mileage":233126},{"maker":"Mazda","model":"Mazda3","year":2009,"price":"$16257.70","mileage":30539},{"maker":"Toyota","model":"Tacoma","year":2003,"price":"$94565.24","mileage":169322},{"maker":"Ford","model":"Escort","year":2002,"price":"$194840.05","mileage":254036},{"maker":"Ford","model":"LTD Crown Victoria","year":1985,"price":"$94252.80","mileage":96240},{"maker":"Mitsubishi","model":"3000GT","year":1993,"price":"$11544.30","mileage":189315},{"maker":"Jeep","model":"Liberty","year":2005,"price":"$126705.45","mileage":73933},{"maker":"Mitsubishi","model":"Eclipse","year":2010,"price":"$180143.74","mileage":49559},{"maker":"Ford","model":"Econoline E250","year":2001,"price":"$3611.53","mileage":146032},{"maker":"Chrysler","model":"Town & Country","year":2012,"price":"$18266.30","mileage":179605},{"maker":"Pontiac","model":"Grand Am","year":1994,"price":"$62649.59","mileage":243524},{"maker":"Chevrolet","model":"3500","year":1996,"price":"$77732.97","mileage":36856},{"maker":"Infiniti","model":"Q","year":2006,"price":"$185970.73","mileage":173220},{"maker":"GMC","model":"Sonoma","year":1999,"price":"$198508.37","mileage":113936},{"maker":"Cadillac","model":"STS","year":2005,"price":"$140943.98","mileage":36819},{"maker":"Ford","model":"Fusion","year":2006,"price":"$193602.55","mileage":260848},{"maker":"Mitsubishi","model":"Galant","year":1985,"price":"$135282.05","mileage":88681},{"maker":"Honda","model":"del Sol","year":1993,"price":"$198050.72","mileage":142825},{"maker":"Ford","model":"E350","year":2011,"price":"$77419.19","mileage":266228},{"maker":"Daewoo","model":"Lanos","year":2001,"price":"$12401.37","mileage":173821},{"maker":"Aston Martin","model":"V8 Vantage","year":2008,"price":"$16096.07","mileage":180484},{"maker":"Lexus","model":"ES","year":2001,"price":"$148743.22","mileage":91137},{"maker":"Volkswagen","model":"Cabriolet","year":1992,"price":"$75904.10","mileage":243413},{"maker":"Audi","model":"Q7","year":2008,"price":"$185554.45","mileage":204574},{"maker":"Chevrolet","model":"Tahoe","year":1997,"price":"$158096.64","mileage":14029},{"maker":"GMC","model":"Savana 3500","year":2003,"price":"$8237.67","mileage":4360},{"maker":"Pontiac","model":"Solstice","year":2006,"price":"$54216.09","mileage":59093},{"maker":"Dodge","model":"Ram 2500 Club","year":1996,"price":"$45779.52","mileage":289194},{"maker":"Ford","model":"Taurus","year":1995,"price":"$49535.13","mileage":293886},{"maker":"Chevrolet","model":"Camaro","year":1979,"price":"$29433.58","mileage":9266},{"maker":"Mazda","model":"B2600","year":1987,"price":"$81425.81","mileage":258649},{"maker":"Isuzu","model":"Rodeo","year":1996,"price":"$22713.83","mileage":53145},{"maker":"Toyota","model":"RAV4","year":2009,"price":"$121888.13","mileage":139873},{"maker":"Acura","model":"TL","year":2007,"price":"$1088.41","mileage":286077},{"maker":"Mercury","model":"Capri","year":1993,"price":"$3093.40","mileage":107396},{"maker":"Ford","model":"Crown Victoria","year":2001,"price":"$71110.36","mileage":222938},{"maker":"Chevrolet","model":"Suburban 1500","year":1999,"price":"$104564.59","mileage":32284},{"maker":"GMC","model":"EV1","year":1999,"price":"$154208.73","mileage":59119},{"maker":"Mazda","model":"Navajo","year":1992,"price":"$63441.92","mileage":218792},{"maker":"Mitsubishi","model":"Montero","year":2000,"price":"$40267.03","mileage":298046},{"maker":"Mazda","model":"MX-5","year":1999,"price":"$59219.54","mileage":132267},{"maker":"Chevrolet","model":"S10 Blazer","year":1994,"price":"$124665.03","mileage":111534},{"maker":"Ford","model":"Econoline E150","year":1993,"price":"$71595.13","mileage":179664},{"maker":"Porsche","model":"968","year":1993,"price":"$12734.90","mileage":207929},{"maker":"Chevrolet","model":"Express 1500","year":2012,"price":"$137657.89","mileage":109394},{"maker":"Ford","model":"Fiesta","year":2013,"price":"$29263.63","mileage":107926},{"maker":"Alfa Romeo","model":"Spider","year":1992,"price":"$120010.13","mileage":140126},{"maker":"GMC","model":"Sierra Hybrid","year":2006,"price":"$128208.94","mileage":113654},{"maker":"Acura","model":"Integra","year":1988,"price":"$3376.40","mileage":79239},{"maker":"Dodge","model":"Stratus","year":2001,"price":"$159894.69","mileage":195630},{"maker":"Audi","model":"S6","year":2008,"price":"$83537.67","mileage":147068},{"maker":"Volkswagen","model":"Jetta","year":2006,"price":"$119510.63","mileage":289972},{"maker":"Ford","model":"Mustang","year":1986,"price":"$176568.90","mileage":95773},{"maker":"Mitsubishi","model":"Galant","year":2006,"price":"$94092.48","mileage":165343},{"maker":"Pontiac","model":"Grand Prix","year":1990,"price":"$146775.19","mileage":101157},{"maker":"Oldsmobile","model":"Bravada","year":2004,"price":"$50889.47","mileage":256018},{"maker":"Volvo","model":"XC70","year":2010,"price":"$99210.72","mileage":189036},{"maker":"Daewoo","model":"Nubira","year":2001,"price":"$97923.16","mileage":274722},{"maker":"Jeep","model":"Grand Cherokee","year":2012,"price":"$121412.39","mileage":124079},{"maker":"Chrysler","model":"Fifth Ave","year":1992,"price":"$73106.72","mileage":112375},{"maker":"Audi","model":"A6","year":2012,"price":"$10238.78","mileage":50262},{"maker":"Mercury","model":"Villager","year":2000,"price":"$181024.65","mileage":189353},{"maker":"Chevrolet","model":"Caprice","year":1994,"price":"$135203.52","mileage":288258},{"maker":"Chevrolet","model":"Silverado","year":2002,"price":"$98958.19","mileage":215170},{"maker":"Chevrolet","model":"Suburban 2500","year":2002,"price":"$160487.57","mileage":140074},{"maker":"BMW","model":"M5","year":2006,"price":"$63447.06","mileage":109102},{"maker":"Ford","model":"Laser","year":1985,"price":"$143933.82","mileage":74383},{"maker":"Aston Martin","model":"DB9","year":2005,"price":"$105196.12","mileage":280734},{"maker":"Ford","model":"Freestar","year":2007,"price":"$76490.90","mileage":198194},{"maker":"Ford","model":"Mustang","year":1986,"price":"$153610.99","mileage":117894},{"maker":"Saab","model":"9-5","year":2002,"price":"$154387.64","mileage":73689},{"maker":"Mitsubishi","model":"Montero","year":1995,"price":"$31816.23","mileage":72884},{"maker":"Ford","model":"Escort","year":1994,"price":"$43297.61","mileage":14372},{"maker":"Mazda","model":"Mazda2","year":2011,"price":"$102363.34","mileage":48498},{"maker":"Mitsubishi","model":"Lancer","year":2003,"price":"$15407.12","mileage":240586},{"maker":"Dodge","model":"Caravan","year":1998,"price":"$70998.30","mileage":58160},{"maker":"Saturn","model":"S-Series","year":1992,"price":"$13832.68","mileage":66250},{"maker":"Chevrolet","model":"Corvette","year":1962,"price":"$46341.82","mileage":14715},{"maker":"Mazda","model":"MX-5","year":1999,"price":"$62788.85","mileage":258164},{"maker":"Volkswagen","model":"Passat","year":2005,"price":"$173975.76","mileage":162951},{"maker":"Chevrolet","model":"Suburban 1500","year":2009,"price":"$114406.62","mileage":56806},{"maker":"Ford","model":"Ranger","year":1991,"price":"$72664.61","mileage":159002},{"maker":"Pontiac","model":"Grand Am","year":1991,"price":"$199166.76","mileage":187154},{"maker":"Chevrolet","model":"Suburban 2500","year":2011,"price":"$69993.99","mileage":192893},{"maker":"Dodge","model":"Colt","year":1989,"price":"$184173.38","mileage":64440},{"maker":"Mercedes-Benz","model":"E-Class","year":1996,"price":"$188333.45","mileage":50446},{"maker":"Suzuki","model":"Aerio","year":2006,"price":"$7595.73","mileage":286425},{"maker":"Saab","model":"9000","year":1989,"price":"$182931.77","mileage":85846},{"maker":"Chevrolet","model":"Volt","year":2012,"price":"$74735.60","mileage":132133},{"maker":"BMW","model":"645","year":2004,"price":"$92750.69","mileage":66747},{"maker":"Pontiac","model":"Tempest","year":1966,"price":"$145324.32","mileage":274394},{"maker":"Dodge","model":"Neon","year":2003,"price":"$71713.42","mileage":6956},{"maker":"Suzuki","model":"Swift","year":1987,"price":"$32729.10","mileage":54872},{"maker":"Mercury","model":"Sable","year":1987,"price":"$30348.58","mileage":200950},{"maker":"Aptera","model":"Typ-1","year":2008,"price":"$129806.07","mileage":237084},{"maker":"Scion","model":"iQ","year":2012,"price":"$163273.97","mileage":116877},{"maker":"Volvo","model":"S40","year":2011,"price":"$172200.83","mileage":278378},{"maker":"Chevrolet","model":"Lumina","year":1994,"price":"$171930.75","mileage":255955},{"maker":"Infiniti","model":"QX","year":2006,"price":"$169603.60","mileage":89593},{"maker":"Toyota","model":"Land Cruiser","year":2003,"price":"$126372.74","mileage":281660},{"maker":"Toyota","model":"Highlander","year":2012,"price":"$120456.76","mileage":153541},{"maker":"Volkswagen","model":"GTI","year":1989,"price":"$90723.70","mileage":85131},{"maker":"Pontiac","model":"G5","year":2009,"price":"$196202.24","mileage":168185},{"maker":"Chevrolet","model":"Venture","year":1999,"price":"$149849.94","mileage":269185},{"maker":"Chevrolet","model":"Impala","year":2001,"price":"$88239.56","mileage":162276},{"maker":"Lexus","model":"LS","year":1992,"price":"$50565.50","mileage":294748},{"maker":"Pontiac","model":"1000","year":1986,"price":"$22354.05","mileage":199684},{"maker":"Dodge","model":"Ram","year":2008,"price":"$66006.81","mileage":178305},{"maker":"Buick","model":"Regal","year":2004,"price":"$181116.38","mileage":184157},{"maker":"Buick","model":"LeSabre","year":2002,"price":"$7958.80","mileage":249740},{"maker":"Dodge","model":"Ram 3500","year":2009,"price":"$122621.41","mileage":214316},{"maker":"Porsche","model":"Panamera","year":2012,"price":"$32415.98","mileage":119198},{"maker":"Kia","model":"Sportage","year":2002,"price":"$186512.88","mileage":58626},{"maker":"GMC","model":"Suburban 1500","year":1994,"price":"$140004.91","mileage":271310},{"maker":"Ford","model":"Windstar","year":1998,"price":"$177125.09","mileage":105879},{"maker":"Hummer","model":"H2 SUV","year":2006,"price":"$50575.64","mileage":248690},{"maker":"Ford","model":"Bronco","year":1992,"price":"$64622.65","mileage":77747},{"maker":"Dodge","model":"Durango","year":2001,"price":"$6762.21","mileage":55846},{"maker":"Subaru","model":"Legacy","year":2004,"price":"$25690.94","mileage":220614},{"maker":"Saab","model":"9-5","year":2001,"price":"$152356.40","mileage":91606},{"maker":"Spyker","model":"C8 Double 12 S","year":2006,"price":"$8250.21","mileage":97291},{"maker":"Subaru","model":"Impreza","year":2002,"price":"$84017.48","mileage":81400},{"maker":"Toyota","model":"Camry","year":1999,"price":"$40370.57","mileage":92158},{"maker":"Ford","model":"Explorer","year":1996,"price":"$134111.46","mileage":58397},{"maker":"Buick","model":"LaCrosse","year":2008,"price":"$9367.59","mileage":268093},{"maker":"Land Rover","model":"Discovery","year":2001,"price":"$100676.47","mileage":293721},{"maker":"Ford","model":"Explorer Sport Trac","year":2001,"price":"$172294.38","mileage":282017},{"maker":"BMW","model":"750","year":2006,"price":"$9235.91","mileage":99783},{"maker":"Lexus","model":"RX","year":2004,"price":"$32559.41","mileage":163720},{"maker":"Acura","model":"TL","year":2001,"price":"$119219.27","mileage":144881},{"maker":"Rolls-Royce","model":"Phantom","year":2010,"price":"$177221.51","mileage":240639},{"maker":"Nissan","model":"Pathfinder","year":2007,"price":"$64352.04","mileage":101469},{"maker":"Land Rover","model":"Discovery","year":2004,"price":"$15250.61","mileage":144921},{"maker":"Mazda","model":"Protege","year":1998,"price":"$33020.18","mileage":262050},{"maker":"Audi","model":"Allroad","year":2002,"price":"$187489.28","mileage":12098},{"maker":"Mercedes-Benz","model":"CLK-Class","year":2000,"price":"$180186.24","mileage":78572},{"maker":"Jaguar","model":"XJ Series","year":1992,"price":"$112173.94","mileage":179163},{"maker":"GMC","model":"Sierra 3500","year":2011,"price":"$178965.79","mileage":206302},{"maker":"Suzuki","model":"XL-7","year":2001,"price":"$119645.76","mileage":113337},{"maker":"Subaru","model":"Outback","year":2011,"price":"$154955.65","mileage":197361},{"maker":"Mitsubishi","model":"Diamante","year":2000,"price":"$120972.60","mileage":124028},{"maker":"Honda","model":"Odyssey","year":2011,"price":"$32942.61","mileage":165756},{"maker":"Chevrolet","model":"Astro","year":1993,"price":"$145785.01","mileage":122384},{"maker":"GMC","model":"Sierra 3500","year":2003,"price":"$64045.15","mileage":31499},{"maker":"Ford","model":"F-Series","year":2007,"price":"$112329.47","mileage":15338},{"maker":"GMC","model":"Jimmy","year":1997,"price":"$9374.95","mileage":124410},{"maker":"Buick","model":"Rendezvous","year":2007,"price":"$100047.34","mileage":278284},{"maker":"Jaguar","model":"S-Type","year":2006,"price":"$73858.58","mileage":227244},{"maker":"Volkswagen","model":"Cabriolet","year":1989,"price":"$128751.15","mileage":105067},{"maker":"Buick","model":"Park Avenue","year":2005,"price":"$4112.98","mileage":64663},{"maker":"Pontiac","model":"Firebird","year":1991,"price":"$132264.47","mileage":99370},{"maker":"Ford","model":"F250","year":2011,"price":"$96610.15","mileage":30784},{"maker":"Ford","model":"Explorer Sport Trac","year":2003,"price":"$24811.88","mileage":55880},{"maker":"Mitsubishi","model":"Eclipse","year":2003,"price":"$23918.19","mileage":156250},{"maker":"Pontiac","model":"Grand Prix","year":2002,"price":"$132330.14","mileage":168754},{"maker":"Saab","model":"9-5","year":2002,"price":"$185125.67","mileage":222846},{"maker":"GMC","model":"Yukon Denali","year":2006,"price":"$172835.28","mileage":94193},{"maker":"Mercedes-Benz","model":"SLK-Class","year":1998,"price":"$113667.53","mileage":187252},{"maker":"Volvo","model":"C70","year":1998,"price":"$185939.00","mileage":266714},{"maker":"Ford","model":"Mustang","year":1989,"price":"$195614.38","mileage":50785},{"maker":"Audi","model":"S6","year":2002,"price":"$182685.78","mileage":9799},{"maker":"Mitsubishi","model":"Eclipse","year":2005,"price":"$102884.87","mileage":65194},{"maker":"Scion","model":"xB","year":2012,"price":"$180322.17","mileage":144591},{"maker":"Porsche","model":"Boxster","year":2009,"price":"$148632.00","mileage":262858},{"maker":"Land Rover","model":"Range Rover","year":1998,"price":"$173971.91","mileage":170418},{"maker":"Ford","model":"Econoline E150","year":1996,"price":"$189704.08","mileage":226517},{"maker":"Mitsubishi","model":"Truck","year":1985,"price":"$20436.95","mileage":229365},{"maker":"Chevrolet","model":"Blazer","year":2004,"price":"$127097.95","mileage":200546},{"maker":"Buick","model":"Century","year":2000,"price":"$107414.17","mileage":248605},{"maker":"Infiniti","model":"Q","year":1998,"price":"$56436.58","mileage":112701},{"maker":"Mercury","model":"Topaz","year":1989,"price":"$113912.05","mileage":108499},{"maker":"GMC","model":"Suburban 2500","year":1992,"price":"$161987.36","mileage":287824},{"maker":"Ford","model":"Thunderbird","year":1989,"price":"$74293.48","mileage":155287},{"maker":"Chevrolet","model":"Tahoe","year":2008,"price":"$52340.09","mileage":137459},{"maker":"Maserati","model":"Quattroporte","year":2009,"price":"$169188.34","mileage":74407},{"maker":"Toyota","model":"Previa","year":1997,"price":"$117188.61","mileage":92930},{"maker":"Toyota","model":"Camry","year":2012,"price":"$86677.91","mileage":298514},{"maker":"Nissan","model":"Pathfinder","year":1994,"price":"$58042.93","mileage":59875},{"maker":"Jeep","model":"Grand Cherokee","year":2000,"price":"$16727.93","mileage":188855},{"maker":"Saab","model":"9-5","year":2009,"price":"$77757.16","mileage":6902},{"maker":"Ford","model":"Five Hundred","year":2006,"price":"$37037.48","mileage":120567},{"maker":"Chevrolet","model":"Avalanche","year":2010,"price":"$184114.38","mileage":121672},{"maker":"Kia","model":"Amanti","year":2005,"price":"$5100.41","mileage":69764},{"maker":"Cadillac","model":"DeVille","year":1995,"price":"$149447.71","mileage":242524},{"maker":"Jeep","model":"Wrangler","year":2000,"price":"$157616.79","mileage":288997},{"maker":"Ford","model":"E-Series","year":1987,"price":"$84299.51","mileage":11734},{"maker":"Hyundai","model":"Tucson","year":2010,"price":"$103846.94","mileage":284315},{"maker":"Ford","model":"Mustang","year":1969,"price":"$58524.77","mileage":91414},{"maker":"Audi","model":"TT","year":2009,"price":"$55479.57","mileage":17799},{"maker":"Dodge","model":"Journey","year":2010,"price":"$107970.29","mileage":144398},{"maker":"Mercedes-Benz","model":"SLK-Class","year":2012,"price":"$23521.89","mileage":215165},{"maker":"Maserati","model":"Quattroporte","year":2006,"price":"$1328.19","mileage":35184},{"maker":"Audi","model":"V8","year":1994,"price":"$20836.41","mileage":79310},{"maker":"Chevrolet","model":"Tahoe","year":1998,"price":"$99922.64","mileage":186240},{"maker":"Ford","model":"Econoline E250","year":1993,"price":"$54014.35","mileage":16961},{"maker":"Subaru","model":"Leone","year":1989,"price":"$124564.94","mileage":6209},{"maker":"Jaguar","model":"XJ Series","year":1994,"price":"$61953.16","mileage":26630},{"maker":"Isuzu","model":"Hombre Space","year":2000,"price":"$10617.70","mileage":182677},{"maker":"Infiniti","model":"Q","year":2003,"price":"$91418.61","mileage":266521},{"maker":"Dodge","model":"Intrepid","year":1998,"price":"$141056.99","mileage":254661},{"maker":"Suzuki","model":"Swift","year":1987,"price":"$65969.60","mileage":111299},{"maker":"Chevrolet","model":"3500","year":1998,"price":"$114406.78","mileage":66974},{"maker":"Hyundai","model":"Scoupe","year":1995,"price":"$83062.82","mileage":164314},{"maker":"Land Rover","model":"Discovery","year":2011,"price":"$170657.80","mileage":50122},{"maker":"Mercedes-Benz","model":"CL-Class","year":2002,"price":"$46573.48","mileage":254876},{"maker":"Audi","model":"S4","year":2002,"price":"$152016.89","mileage":65466},{"maker":"GMC","model":"Canyon","year":2005,"price":"$76354.81","mileage":126472},{"maker":"Isuzu","model":"Hombre Space","year":1999,"price":"$172767.65","mileage":174983},{"maker":"Saab","model":"9-3","year":1999,"price":"$65431.58","mileage":91808},{"maker":"BMW","model":"7 Series","year":2010,"price":"$129871.87","mileage":231205},{"maker":"Pontiac","model":"Safari","year":1987,"price":"$81217.30","mileage":1900},{"maker":"Infiniti","model":"G","year":2006,"price":"$175101.21","mileage":213988},{"maker":"Audi","model":"4000CS Quattro","year":1986,"price":"$139060.10","mileage":108548},{"maker":"Lexus","model":"GX","year":2011,"price":"$28666.45","mileage":72144},{"maker":"Lincoln","model":"Town Car","year":1985,"price":"$41339.91","mileage":243919},{"maker":"Kia","model":"Sportage","year":2010,"price":"$6690.44","mileage":299300},{"maker":"Toyota","model":"Corolla","year":2009,"price":"$34477.93","mileage":181520},{"maker":"Ford","model":"Crown Victoria","year":1997,"price":"$150228.90","mileage":194675},{"maker":"Chevrolet","model":"Volt","year":2012,"price":"$43297.80","mileage":106458},{"maker":"Oldsmobile","model":"Ciera","year":1994,"price":"$50441.08","mileage":292052},{"maker":"Dodge","model":"Intrepid","year":1999,"price":"$7079.14","mileage":170581},{"maker":"Buick","model":"LaCrosse","year":2011,"price":"$8219.65","mileage":234649},{"maker":"Audi","model":"S4","year":2012,"price":"$8241.72","mileage":258286},{"maker":"Volkswagen","model":"Golf","year":2003,"price":"$15165.65","mileage":53069},{"maker":"Dodge","model":"Ram Van 2500","year":1999,"price":"$97382.23","mileage":106426},{"maker":"Volvo","model":"V70","year":2005,"price":"$54380.31","mileage":105789},{"maker":"Scion","model":"tC","year":2005,"price":"$64346.21","mileage":126156},{"maker":"Nissan","model":"Murano","year":2011,"price":"$133727.42","mileage":244816},{"maker":"Mazda","model":"B-Series Plus","year":2003,"price":"$130803.45","mileage":210403},{"maker":"Chevrolet","model":"Corvette","year":1996,"price":"$96827.28","mileage":123605},{"maker":"Ford","model":"F150","year":2007,"price":"$179548.06","mileage":73266},{"maker":"Hyundai","model":"Santa Fe","year":2011,"price":"$98261.93","mileage":204266},{"maker":"Chrysler","model":"300","year":1999,"price":"$135093.47","mileage":240996},{"maker":"Chrysler","model":"200","year":2011,"price":"$80235.57","mileage":136508},{"maker":"Maybach","model":"57","year":2010,"price":"$23918.68","mileage":121799},{"maker":"Chevrolet","model":"S10 Blazer","year":1992,"price":"$142810.23","mileage":143072},{"maker":"Mazda","model":"B-Series","year":2004,"price":"$44704.68","mileage":242544},{"maker":"Ford","model":"Expedition","year":2008,"price":"$124200.53","mileage":18774},{"maker":"Mitsubishi","model":"Mirage","year":1989,"price":"$170673.96","mileage":17430},{"maker":"Volkswagen","model":"Eurovan","year":1997,"price":"$46606.66","mileage":59220},{"maker":"Chevrolet","model":"Corvette","year":2010,"price":"$7014.57","mileage":196324},{"maker":"Lotus","model":"Esprit","year":1998,"price":"$176493.10","mileage":19316},{"maker":"Saturn","model":"S-Series","year":1997,"price":"$197036.49","mileage":196259},{"maker":"BMW","model":"7 Series","year":2000,"price":"$198127.62","mileage":67286},{"maker":"Dodge","model":"Stratus","year":1999,"price":"$11776.84","mileage":169617},{"maker":"Nissan","model":"Murano","year":2004,"price":"$96518.02","mileage":272873},{"maker":"Mazda","model":"MPV","year":1996,"price":"$16229.08","mileage":157274},{"maker":"Dodge","model":"Ram Van 2500","year":2002,"price":"$112350.27","mileage":180253},{"maker":"Chrysler","model":"LHS","year":2001,"price":"$160804.39","mileage":83986},{"maker":"Cadillac","model":"Escalade ESV","year":2010,"price":"$13400.55","mileage":77424},{"maker":"BMW","model":"745","year":2003,"price":"$75804.35","mileage":18516},{"maker":"Volkswagen","model":"Golf","year":1989,"price":"$146627.94","mileage":198966},{"maker":"Dodge","model":"Ram 3500","year":2006,"price":"$93987.99","mileage":17914},{"maker":"Subaru","model":"B9 Tribeca","year":2007,"price":"$68423.79","mileage":20623},{"maker":"Nissan","model":"Titan","year":2012,"price":"$111515.65","mileage":57412},{"maker":"GMC","model":"Canyon","year":2006,"price":"$40261.26","mileage":58005},{"maker":"MINI","model":"Cooper","year":2004,"price":"$121175.54","mileage":49451},{"maker":"Infiniti","model":"G25","year":2012,"price":"$73802.16","mileage":62988},{"maker":"Mitsubishi","model":"Expo LRV","year":1996,"price":"$5100.27","mileage":100948},{"maker":"Mercury","model":"Villager","year":2001,"price":"$92713.77","mileage":75564},{"maker":"Plymouth","model":"Prowler","year":1997,"price":"$87824.45","mileage":45208},{"maker":"Mercedes-Benz","model":"CLK-Class","year":2009,"price":"$196037.36","mileage":238141},{"maker":"Chevrolet","model":"Avalanche 1500","year":2003,"price":"$199497.36","mileage":45878},{"maker":"Mercedes-Benz","model":"E-Class","year":2002,"price":"$135054.54","mileage":47459},{"maker":"Plymouth","model":"Grand Voyager","year":1995,"price":"$40892.09","mileage":135718},{"maker":"Jeep","model":"Grand Cherokee","year":2003,"price":"$59766.49","mileage":33768},{"maker":"GMC","model":"Yukon Denali","year":2000,"price":"$5540.30","mileage":115922},{"maker":"Chrysler","model":"Crossfire","year":2008,"price":"$27114.32","mileage":193424},{"maker":"Mercedes-Benz","model":"W201","year":1990,"price":"$167972.23","mileage":210064},{"maker":"Toyota","model":"Camry","year":2009,"price":"$139317.20","mileage":244111},{"maker":"Buick","model":"Regal","year":1996,"price":"$157145.03","mileage":201389},{"maker":"Pontiac","model":"GTO","year":1965,"price":"$135887.40","mileage":18231},{"maker":"Dodge","model":"Ram 2500 Club","year":1998,"price":"$138043.37","mileage":126943},{"maker":"Lexus","model":"GS","year":2013,"price":"$12061.05","mileage":277204},{"maker":"Chrysler","model":"Aspen","year":2008,"price":"$6742.10","mileage":91114},{"maker":"Mercury","model":"Mystique","year":2000,"price":"$141979.60","mileage":184872},{"maker":"Isuzu","model":"Trooper","year":2001,"price":"$174330.57","mileage":211504},{"maker":"Toyota","model":"FJ Cruiser","year":2009,"price":"$134878.13","mileage":264372},{"maker":"Chevrolet","model":"Prizm","year":1998,"price":"$125655.30","mileage":122453},{"maker":"Acura","model":"TL","year":2010,"price":"$28796.66","mileage":295886},{"maker":"Dodge","model":"Magnum","year":2005,"price":"$51894.74","mileage":111838},{"maker":"Ford","model":"Mustang","year":1997,"price":"$117655.99","mileage":256291},{"maker":"Buick","model":"Electra","year":1988,"price":"$45669.78","mileage":237218},{"maker":"Kia","model":"Rondo","year":2007,"price":"$37879.29","mileage":91234},{"maker":"Volkswagen","model":"Jetta","year":2005,"price":"$124697.46","mileage":204864},{"maker":"Chevrolet","model":"Avalanche 1500","year":2003,"price":"$10189.65","mileage":84159},{"maker":"Buick","model":"Skylark","year":1994,"price":"$185395.18","mileage":77943},{"maker":"Maserati","model":"Spyder","year":1989,"price":"$182158.41","mileage":71923},{"maker":"Cadillac","model":"Escalade","year":2009,"price":"$63025.13","mileage":211966},{"maker":"Mitsubishi","model":"Lancer","year":2007,"price":"$86519.88","mileage":123906},{"maker":"Jaguar","model":"S-Type","year":2008,"price":"$101073.41","mileage":2264},{"maker":"Toyota","model":"Ipsum","year":2000,"price":"$55463.31","mileage":258344},{"maker":"Ford","model":"Tempo","year":1992,"price":"$41707.06","mileage":194802},{"maker":"Lexus","model":"RX","year":2013,"price":"$88263.39","mileage":105947},{"maker":"Infiniti","model":"I","year":2002,"price":"$187636.15","mileage":99287},{"maker":"Cadillac","model":"CTS","year":2003,"price":"$183124.55","mileage":54740},{"maker":"Ford","model":"F250","year":2012,"price":"$102156.76","mileage":173603},{"maker":"Mazda","model":"Mazda6","year":2007,"price":"$44691.44","mileage":93246},{"maker":"Honda","model":"Accord","year":1993,"price":"$21872.73","mileage":29856},{"maker":"Volkswagen","model":"riolet","year":1993,"price":"$63911.59","mileage":237923},{"maker":"Dodge","model":"Stealth","year":1993,"price":"$150735.94","mileage":224238},{"maker":"Lexus","model":"LS","year":2002,"price":"$163298.85","mileage":222912},{"maker":"Volkswagen","model":"Golf","year":1996,"price":"$19494.52","mileage":106281},{"maker":"Infiniti","model":"QX","year":2004,"price":"$33965.54","mileage":14409},{"maker":"Pontiac","model":"Turbo Firefly","year":1990,"price":"$3918.97","mileage":185443},{"maker":"Plymouth","model":"Voyager","year":2000,"price":"$100511.66","mileage":192274},{"maker":"Mercedes-Benz","model":"CLK-Class","year":2003,"price":"$189659.35","mileage":20253},{"maker":"Jaguar","model":"XK Series","year":2004,"price":"$91568.02","mileage":196942},{"maker":"Ford","model":"E350","year":2009,"price":"$81520.14","mileage":133459},{"maker":"Ford","model":"Expedition EL","year":2010,"price":"$63972.39","mileage":23310},{"maker":"Chevrolet","model":"Impala","year":2005,"price":"$118554.18","mileage":140250},{"maker":"Oldsmobile","model":"Bravada","year":2004,"price":"$61270.93","mileage":63139},{"maker":"Lamborghini","model":"Diablo","year":1995,"price":"$184783.25","mileage":30777},{"maker":"Jeep","model":"Liberty","year":2004,"price":"$62424.16","mileage":216792},{"maker":"Toyota","model":"Land Cruiser","year":2013,"price":"$112939.36","mileage":223594},{"maker":"Ford","model":"Explorer","year":2009,"price":"$27665.28","mileage":37651},{"maker":"Chevrolet","model":"Silverado 2500","year":1999,"price":"$187350.48","mileage":183575},{"maker":"Cadillac","model":"XLR","year":2009,"price":"$173371.86","mileage":110616},{"maker":"Mazda","model":"323","year":1993,"price":"$95458.98","mileage":154883},{"maker":"Hyundai","model":"Santa Fe","year":2012,"price":"$119062.70","mileage":166689},{"maker":"Acura","model":"RDX","year":2011,"price":"$30565.86","mileage":82162},{"maker":"Scion","model":"tC","year":2013,"price":"$97129.52","mileage":13633},{"maker":"Mazda","model":"RX-7","year":1995,"price":"$58973.94","mileage":273064},{"maker":"Mazda","model":"RX-8","year":2007,"price":"$180045.12","mileage":69550},{"maker":"Jeep","model":"Grand Cherokee","year":1996,"price":"$188387.17","mileage":281533},{"maker":"Pontiac","model":"Grand Prix","year":1984,"price":"$31366.24","mileage":114893},{"maker":"Chevrolet","model":"Express 1500","year":2008,"price":"$142060.39","mileage":101571},{"maker":"Chrysler","model":"LHS","year":1996,"price":"$139577.51","mileage":19877},{"maker":"BMW","model":"5 Series","year":1993,"price":"$186419.09","mileage":168017},{"maker":"Cadillac","model":"Eldorado","year":1994,"price":"$113742.23","mileage":195026},{"maker":"Pontiac","model":"Sunfire","year":2005,"price":"$60899.20","mileage":218776},{"maker":"Ford","model":"Festiva","year":1992,"price":"$42326.51","mileage":135908},{"maker":"Dodge","model":"Ram 1500","year":1996,"price":"$12039.53","mileage":200846},{"maker":"GMC","model":"Savana","year":2007,"price":"$109958.55","mileage":206211},{"maker":"Lexus","model":"ES","year":2000,"price":"$2141.34","mileage":173261},{"maker":"Lexus","model":"LS","year":1990,"price":"$140302.00","mileage":164901},{"maker":"Chevrolet","model":"Suburban 1500","year":2011,"price":"$74043.17","mileage":119501},{"maker":"Acura","model":"Legend","year":1989,"price":"$18352.31","mileage":96079},{"maker":"Ford","model":"E-Series","year":2004,"price":"$52133.86","mileage":206644},{"maker":"Volkswagen","model":"Rabbit","year":2009,"price":"$165479.86","mileage":53705},{"maker":"Subaru","model":"Impreza","year":2009,"price":"$124272.97","mileage":256336},{"maker":"Saab","model":"900","year":1985,"price":"$112993.35","mileage":107174},{"maker":"Chevrolet","model":"HHR","year":2008,"price":"$73023.50","mileage":289571},{"maker":"Hyundai","model":"XG300","year":2001,"price":"$111846.50","mileage":285070},{"maker":"GMC","model":"1500","year":1997,"price":"$144499.07","mileage":110341},{"maker":"Hummer","model":"H1","year":1993,"price":"$20165.30","mileage":224285},{"maker":"Kia","model":"Sportage","year":1995,"price":"$139914.24","mileage":83423},{"maker":"Dodge","model":"Stealth","year":1994,"price":"$57638.27","mileage":295151},{"maker":"Alfa Romeo","model":"164","year":1992,"price":"$175767.57","mileage":158305},{"maker":"BMW","model":"7 Series","year":2002,"price":"$85166.94","mileage":126713},{"maker":"Infiniti","model":"FX","year":2011,"price":"$52082.30","mileage":176588},{"maker":"Mazda","model":"Miata MX-5","year":2006,"price":"$130375.91","mileage":14116},{"maker":"Lexus","model":"RX","year":2008,"price":"$112196.91","mileage":198700},{"maker":"Mazda","model":"Protege","year":1998,"price":"$164134.45","mileage":192488},{"maker":"Bentley","model":"Continental GT","year":2006,"price":"$91917.91","mileage":64019},{"maker":"Lexus","model":"GS","year":2003,"price":"$162594.56","mileage":3390},{"maker":"Toyota","model":"Camry","year":2003,"price":"$184744.87","mileage":98363},{"maker":"Chevrolet","model":"Aveo","year":2011,"price":"$152389.16","mileage":3763},{"maker":"Saturn","model":"VUE","year":2009,"price":"$100325.18","mileage":8314},{"maker":"Mitsubishi","model":"3000GT","year":1999,"price":"$109018.13","mileage":222054},{"maker":"Honda","model":"Odyssey","year":1999,"price":"$119379.01","mileage":271242},{"maker":"Dodge","model":"Ram 2500 Club","year":1995,"price":"$6426.57","mileage":116825},{"maker":"Chevrolet","model":"Tracker","year":2001,"price":"$148911.68","mileage":280856},{"maker":"Mitsubishi","model":"Raider","year":2007,"price":"$78771.08","mileage":187715},{"maker":"Buick","model":"Skylark","year":1998,"price":"$157176.42","mileage":67181},{"maker":"Jeep","model":"Commander","year":2009,"price":"$44788.66","mileage":60582},{"maker":"Chevrolet","model":"Silverado","year":2010,"price":"$28589.40","mileage":289064},{"maker":"Toyota","model":"Land Cruiser","year":2008,"price":"$146489.90","mileage":156517},{"maker":"Acura","model":"RDX","year":2011,"price":"$72401.82","mileage":183122},{"maker":"Mitsubishi","model":"Excel","year":1987,"price":"$12838.07","mileage":277966},{"maker":"Toyota","model":"MR2","year":2000,"price":"$47169.54","mileage":270594},{"maker":"Ford","model":"Laser","year":1986,"price":"$71705.69","mileage":127410},{"maker":"Chevrolet","model":"Monza","year":1975,"price":"$184824.88","mileage":40066},{"maker":"Mitsubishi","model":"Cordia","year":1984,"price":"$56961.39","mileage":95009},{"maker":"Ferrari","model":"458 Italia","year":2012,"price":"$178177.18","mileage":36437},{"maker":"GMC","model":"Envoy","year":2006,"price":"$7568.51","mileage":281106},{"maker":"Honda","model":"Civic","year":2008,"price":"$169534.65","mileage":147102},{"maker":"GMC","model":"Savana Cargo Van","year":2006,"price":"$151782.12","mileage":182225},{"maker":"Toyota","model":"Matrix","year":2006,"price":"$149178.37","mileage":223298},{"maker":"Cadillac","model":"SRX","year":2010,"price":"$7067.86","mileage":195765},{"maker":"Ford","model":"Bronco","year":1991,"price":"$169007.44","mileage":29427},{"maker":"Mercury","model":"Grand Marquis","year":2000,"price":"$106726.20","mileage":152108},{"maker":"BMW","model":"X5","year":2005,"price":"$88412.72","mileage":178176},{"maker":"Ford","model":"E150","year":2009,"price":"$112263.47","mileage":92548},{"maker":"Volkswagen","model":"Rabbit","year":2008,"price":"$65155.45","mileage":15117},{"maker":"Nissan","model":"Titan","year":2010,"price":"$17709.83","mileage":38042},{"maker":"Ford","model":"E150","year":1984,"price":"$138868.44","mileage":10548},{"maker":"Land Rover","model":"Range Rover","year":2000,"price":"$115952.19","mileage":17947},{"maker":"Mazda","model":"323","year":1993,"price":"$36430.18","mileage":43167},{"maker":"Oldsmobile","model":"Alero","year":2001,"price":"$192899.07","mileage":106487},{"maker":"Bentley","model":"Azure","year":2010,"price":"$127092.58","mileage":72442},{"maker":"Suzuki","model":"Swift","year":2005,"price":"$142494.32","mileage":210082},{"maker":"Ford","model":"Expedition","year":1998,"price":"$38779.90","mileage":66553},{"maker":"BMW","model":"5 Series","year":1993,"price":"$7846.28","mileage":272268},{"maker":"GMC","model":"Suburban 1500","year":1994,"price":"$128712.04","mileage":163405},{"maker":"Pontiac","model":"Firebird","year":1984,"price":"$156896.94","mileage":54412},{"maker":"Lexus","model":"ES","year":2003,"price":"$50197.71","mileage":80430},{"maker":"Volvo","model":"XC70","year":2010,"price":"$142557.78","mileage":227208},{"maker":"Cadillac","model":"Seville","year":1994,"price":"$70858.09","mileage":249169},{"maker":"Geo","model":"Metro","year":1997,"price":"$143080.47","mileage":291580},{"maker":"Ford","model":"Fiesta","year":2013,"price":"$2006.93","mileage":127743},{"maker":"Mazda","model":"626","year":2001,"price":"$24376.62","mileage":103437},{"maker":"BMW","model":"7 Series","year":2012,"price":"$99711.83","mileage":234198},{"maker":"Lotus","model":"Esprit","year":1994,"price":"$187658.28","mileage":58829},{"maker":"Chevrolet","model":"Camaro","year":1974,"price":"$187355.75","mileage":92748},{"maker":"Lexus","model":"IS F","year":2008,"price":"$41061.00","mileage":20076},{"maker":"Land Rover","model":"Range Rover","year":1999,"price":"$180812.81","mileage":238654},{"maker":"Ford","model":"Freestar","year":2007,"price":"$179251.56","mileage":187828},{"maker":"Alfa Romeo","model":"164","year":1993,"price":"$83732.72","mileage":123933},{"maker":"Mazda","model":"CX-7","year":2012,"price":"$180008.19","mileage":245571},{"maker":"Pontiac","model":"Fiero","year":1986,"price":"$135008.50","mileage":217667},{"maker":"Jaguar","model":"XJ Series","year":1993,"price":"$174133.51","mileage":20690},{"maker":"Audi","model":"Quattro","year":1985,"price":"$12019.88","mileage":120727},{"maker":"Ford","model":"Econoline E350","year":1993,"price":"$121655.82","mileage":242533},{"maker":"Chevrolet","model":"Caprice","year":1994,"price":"$29599.66","mileage":76040},{"maker":"Hyundai","model":"Sonata","year":2006,"price":"$18038.03","mileage":204316},{"maker":"GMC","model":"Yukon XL 1500","year":2005,"price":"$145512.24","mileage":229668},{"maker":"Mercury","model":"Topaz","year":1992,"price":"$104681.62","mileage":289858},{"maker":"Pontiac","model":"Safari","year":1987,"price":"$142247.20","mileage":141271},{"maker":"Pontiac","model":"Grand Prix","year":1965,"price":"$100015.96","mileage":74734},{"maker":"GMC","model":"Savana 1500","year":1999,"price":"$136299.26","mileage":189151},{"maker":"Toyota","model":"Sienna","year":2004,"price":"$118167.11","mileage":277424},{"maker":"Chevrolet","model":"G-Series 3500","year":1997,"price":"$114159.27","mileage":6459},{"maker":"Audi","model":"80","year":1992,"price":"$35912.49","mileage":246545},{"maker":"Nissan","model":"JUKE","year":2012,"price":"$185437.55","mileage":100068},{"maker":"Porsche","model":"944","year":1989,"price":"$21377.87","mileage":67590},{"maker":"Nissan","model":"Pathfinder","year":2004,"price":"$90668.96","mileage":153637},{"maker":"Toyota","model":"Avalon","year":2004,"price":"$84132.38","mileage":143793},{"maker":"BMW","model":"1 Series","year":2010,"price":"$111612.50","mileage":172575},{"maker":"Toyota","model":"Land Cruiser","year":2006,"price":"$172742.33","mileage":266035},{"maker":"Pontiac","model":"Grand Prix","year":2001,"price":"$44436.25","mileage":79002},{"maker":"Volkswagen","model":"Golf","year":2002,"price":"$87450.16","mileage":82162},{"maker":"Infiniti","model":"G","year":2010,"price":"$14687.86","mileage":154045},{"maker":"Toyota","model":"RAV4","year":2001,"price":"$110895.74","mileage":169294},{"maker":"Kia","model":"Amanti","year":2007,"price":"$81187.75","mileage":152243},{"maker":"Plymouth","model":"Grand Voyager","year":1992,"price":"$168058.86","mileage":42967},{"maker":"Dodge","model":"Grand Caravan","year":2003,"price":"$125025.13","mileage":268191},{"maker":"Volkswagen","model":"Routan","year":2010,"price":"$110114.31","mileage":160615},{"maker":"Cadillac","model":"Escalade ESV","year":2004,"price":"$154670.92","mileage":103965},{"maker":"Toyota","model":"Tacoma Xtra","year":1999,"price":"$195797.14","mileage":288156},{"maker":"Volkswagen","model":"Cabriolet","year":1992,"price":"$4258.60","mileage":12680},{"maker":"Pontiac","model":"Montana","year":2001,"price":"$75448.10","mileage":17551},{"maker":"Volkswagen","model":"Jetta","year":1989,"price":"$160935.87","mileage":10834},{"maker":"GMC","model":"Sierra 2500","year":2008,"price":"$199388.61","mileage":283778},{"maker":"Chrysler","model":"Town & Country","year":2009,"price":"$56036.43","mileage":105343},{"maker":"Chevrolet","model":"Impala","year":2010,"price":"$36055.28","mileage":288002},{"maker":"Mazda","model":"626","year":1999,"price":"$118950.79","mileage":149459},{"maker":"Kia","model":"Sorento","year":2005,"price":"$197567.49","mileage":273165},{"maker":"Chevrolet","model":"Aveo","year":2005,"price":"$133875.59","mileage":206598},{"maker":"Pontiac","model":"Chevette","year":1987,"price":"$57057.01","mileage":107313},{"maker":"Mitsubishi","model":"Mirage","year":1988,"price":"$5762.65","mileage":237140},{"maker":"Lotus","model":"Elan","year":1993,"price":"$140822.57","mileage":128650},{"maker":"Maserati","model":"GranSport","year":2005,"price":"$155084.39","mileage":299009},{"maker":"Toyota","model":"Solara","year":2005,"price":"$33686.44","mileage":270585},{"maker":"Mitsubishi","model":"Montero","year":1993,"price":"$78262.55","mileage":96456},{"maker":"Toyota","model":"RAV4","year":2007,"price":"$191630.67","mileage":128397},{"maker":"Chrysler","model":"Prowler","year":2001,"price":"$118657.69","mileage":153868},{"maker":"Jeep","model":"Patriot","year":2007,"price":"$14448.32","mileage":136241},{"maker":"Ford","model":"E-Series","year":1993,"price":"$75020.93","mileage":214895},{"maker":"Mercedes-Benz","model":"SL-Class","year":1989,"price":"$198136.62","mileage":27208},{"maker":"Toyota","model":"Corolla","year":2004,"price":"$11476.04","mileage":193268},{"maker":"Chevrolet","model":"Suburban 2500","year":2005,"price":"$67710.88","mileage":289924},{"maker":"Ford","model":"Econoline E150","year":1993,"price":"$195076.36","mileage":271625},{"maker":"Nissan","model":"Sentra","year":1992,"price":"$120948.64","mileage":47362},{"maker":"Kia","model":"Sportage","year":2010,"price":"$166020.67","mileage":62163},{"maker":"Ford","model":"F250","year":1984,"price":"$21659.68","mileage":141566},{"maker":"Mercedes-Benz","model":"SL-Class","year":1996,"price":"$162310.39","mileage":47318},{"maker":"Mazda","model":"Mazdaspeed 3","year":2010,"price":"$31018.06","mileage":166092},{"maker":"Mitsubishi","model":"Lancer","year":2010,"price":"$74732.48","mileage":275858},{"maker":"Hyundai","model":"HED-5","year":2012,"price":"$14185.10","mileage":175762},{"maker":"Volvo","model":"V50","year":2010,"price":"$172418.33","mileage":45595},{"maker":"Ford","model":"Th!nk","year":2000,"price":"$135521.70","mileage":269977},{"maker":"Jeep","model":"Liberty","year":2011,"price":"$57085.79","mileage":216595},{"maker":"Toyota","model":"Tacoma","year":2005,"price":"$74630.42","mileage":13919},{"maker":"Pontiac","model":"Turbo Firefly","year":1988,"price":"$139719.63","mileage":200412},{"maker":"GMC","model":"Jimmy","year":1997,"price":"$139529.18","mileage":296091},{"maker":"Pontiac","model":"Sunfire","year":2003,"price":"$172561.39","mileage":274457},{"maker":"Jaguar","model":"XJ Series","year":2001,"price":"$137567.00","mileage":117557},{"maker":"Ford","model":"E250","year":2010,"price":"$106583.24","mileage":242139},{"maker":"Ford","model":"Mustang","year":1983,"price":"$30276.56","mileage":60542},{"maker":"Acura","model":"RDX","year":2012,"price":"$106703.18","mileage":178732},{"maker":"Toyota","model":"Venza","year":2013,"price":"$166803.72","mileage":232953},{"maker":"Chevrolet","model":"Caprice","year":1991,"price":"$186121.77","mileage":131121},{"maker":"Chevrolet","model":"HHR","year":2008,"price":"$126570.19","mileage":158372},{"maker":"Acura","model":"Legend","year":1990,"price":"$4957.56","mileage":4943},{"maker":"BMW","model":"X5","year":2004,"price":"$49949.86","mileage":101489},{"maker":"BMW","model":"X6","year":2008,"price":"$182436.28","mileage":150304},{"maker":"Nissan","model":"Rogue","year":2008,"price":"$164057.75","mileage":136237},{"maker":"Dodge","model":"Ram 1500","year":2006,"price":"$127001.66","mileage":225440},{"maker":"Saab","model":"900","year":1994,"price":"$2427.38","mileage":176482},{"maker":"Acura","model":"TSX","year":2009,"price":"$103364.22","mileage":137279},{"maker":"Mitsubishi","model":"Chariot","year":1988,"price":"$164447.46","mileage":255891},{"maker":"Kia","model":"Sephia","year":1994,"price":"$113065.53","mileage":95124},{"maker":"Mitsubishi","model":"Pajero","year":2006,"price":"$15052.80","mileage":145997},{"maker":"Ford","model":"F-Series","year":1991,"price":"$21224.89","mileage":165434},{"maker":"BMW","model":"6 Series","year":2007,"price":"$121699.06","mileage":227725},{"maker":"Ford","model":"Escape","year":2013,"price":"$142623.29","mileage":122184},{"maker":"Pontiac","model":"GTO","year":1966,"price":"$175553.98","mileage":87331},{"maker":"Honda","model":"Accord","year":1984,"price":"$52722.58","mileage":39519},{"maker":"Mercedes-Benz","model":"S-Class","year":2005,"price":"$30827.44","mileage":66752},{"maker":"Mitsubishi","model":"Galant","year":2001,"price":"$31807.89","mileage":39324},{"maker":"Pontiac","model":"Sunfire","year":2002,"price":"$48146.30","mileage":159630},{"maker":"GMC","model":"Suburban 2500","year":1992,"price":"$106714.77","mileage":255024},{"maker":"Land Rover","model":"LR3","year":2007,"price":"$177759.71","mileage":47845},{"maker":"Porsche","model":"928","year":1987,"price":"$182796.83","mileage":38775},{"maker":"Subaru","model":"Tribeca","year":2009,"price":"$57775.47","mileage":189905},{"maker":"Maserati","model":"Quattroporte","year":2010,"price":"$197770.17","mileage":221446},{"maker":"Dodge","model":"Dakota Club","year":2002,"price":"$195360.06","mileage":50618},{"maker":"Nissan","model":"Murano","year":2011,"price":"$194245.17","mileage":165014},{"maker":"Honda","model":"Passport","year":1997,"price":"$132901.25","mileage":185621},{"maker":"Land Rover","model":"Range Rover","year":1989,"price":"$39838.90","mileage":137644},{"maker":"Scion","model":"xB","year":2004,"price":"$46765.32","mileage":184641},{"maker":"Mercedes-Benz","model":"500E","year":1993,"price":"$113364.17","mileage":162224},{"maker":"Dodge","model":"Intrepid","year":2004,"price":"$97385.74","mileage":119380},{"maker":"Lincoln","model":"LS","year":2004,"price":"$3976.46","mileage":136013},{"maker":"Audi","model":"A8","year":1998,"price":"$134032.57","mileage":90683},{"maker":"GMC","model":"3500 Club Coupe","year":1993,"price":"$165765.90","mileage":168949},{"maker":"GMC","model":"Safari","year":1998,"price":"$25651.79","mileage":51397},{"maker":"Lotus","model":"Esprit","year":2002,"price":"$107337.58","mileage":295080},{"maker":"Cadillac","model":"STS","year":2008,"price":"$45088.75","mileage":116394},{"maker":"Buick","model":"LeSabre","year":1988,"price":"$153444.20","mileage":88211},{"maker":"Chevrolet","model":"Avalanche","year":2011,"price":"$190846.60","mileage":141499},{"maker":"Infiniti","model":"QX","year":2005,"price":"$129589.61","mileage":257745},{"maker":"Mitsubishi","model":"Eclipse","year":1995,"price":"$170773.34","mileage":128246},{"maker":"Nissan","model":"Altima","year":1999,"price":"$48277.51","mileage":50023},{"maker":"Mitsubishi","model":"Challenger","year":2001,"price":"$166353.73","mileage":99571},{"maker":"Cadillac","model":"Escalade","year":2011,"price":"$101429.93","mileage":294555},{"maker":"Land Rover","model":"Discovery","year":2006,"price":"$22476.22","mileage":234594},{"maker":"Nissan","model":"Altima","year":1995,"price":"$23255.48","mileage":159676},{"maker":"Subaru","model":"Forester","year":2012,"price":"$105700.16","mileage":277117},{"maker":"Audi","model":"Coupe GT","year":1987,"price":"$61263.19","mileage":42995},{"maker":"Ford","model":"F250","year":1993,"price":"$16606.50","mileage":1452},{"maker":"Maserati","model":"Spyder","year":2002,"price":"$43057.14","mileage":197529},{"maker":"Dodge","model":"Charger","year":1969,"price":"$177543.54","mileage":248490},{"maker":"Aston Martin","model":"Rapide","year":2010,"price":"$12309.44","mileage":274886},{"maker":"Dodge","model":"Caravan","year":2008,"price":"$177487.65","mileage":169763},{"maker":"Suzuki","model":"SX4","year":2012,"price":"$132556.68","mileage":26779},{"maker":"GMC","model":"Suburban 2500","year":1993,"price":"$120164.06","mileage":214914},{"maker":"Honda","model":"Insight","year":2001,"price":"$63420.73","mileage":293300},{"maker":"Chevrolet","model":"Express 3500","year":2000,"price":"$71963.40","mileage":85501},{"maker":"Mercedes-Benz","model":"SL-Class","year":2008,"price":"$36182.96","mileage":20030},{"maker":"Saturn","model":"S-Series","year":2002,"price":"$114933.95","mileage":208900},{"maker":"Mitsubishi","model":"Lancer Evolution","year":2011,"price":"$136451.92","mileage":45749},{"maker":"Mercedes-Benz","model":"S-Class","year":1998,"price":"$188960.35","mileage":103900},{"maker":"Dodge","model":"Ram 3500","year":2009,"price":"$30800.10","mileage":228124},{"maker":"Cadillac","model":"Escalade EXT","year":2004,"price":"$187075.23","mileage":83597},{"maker":"Ford","model":"F250","year":1984,"price":"$3813.47","mileage":51770},{"maker":"Oldsmobile","model":"Achieva","year":1993,"price":"$125449.54","mileage":126356},{"maker":"Nissan","model":"Maxima","year":1993,"price":"$125165.73","mileage":43790},{"maker":"Hyundai","model":"Elantra","year":2010,"price":"$46290.00","mileage":129777},{"maker":"Porsche","model":"914","year":1970,"price":"$63120.29","mileage":109859},{"maker":"Chrysler","model":"300M","year":2004,"price":"$80951.89","mileage":226324},{"maker":"Volkswagen","model":"Passat","year":2010,"price":"$85934.97","mileage":191626},{"maker":"BMW","model":"X5","year":2008,"price":"$176812.87","mileage":25313},{"maker":"Audi","model":"S4","year":1992,"price":"$119932.15","mileage":68923},{"maker":"Maybach","model":"57S","year":2005,"price":"$174703.11","mileage":139849},{"maker":"Honda","model":"Pilot","year":2012,"price":"$158305.41","mileage":234918},{"maker":"Saab","model":"9-3","year":2006,"price":"$134413.70","mileage":11193},{"maker":"Acura","model":"NSX","year":1994,"price":"$135307.07","mileage":142019},{"maker":"Volkswagen","model":"Tiguan","year":2010,"price":"$177056.44","mileage":293249},{"maker":"Porsche","model":"Cayenne","year":2005,"price":"$147142.50","mileage":48250},{"maker":"Rolls-Royce","model":"Ghost","year":2012,"price":"$183068.00","mileage":136581},{"maker":"Lexus","model":"GX","year":2004,"price":"$141112.39","mileage":45097},{"maker":"Aston Martin","model":"V12 Vantage","year":2012,"price":"$28572.94","mileage":2559},{"maker":"Subaru","model":"Forester","year":2009,"price":"$166074.02","mileage":204959},{"maker":"Lexus","model":"GX","year":2004,"price":"$141721.08","mileage":98811},{"maker":"Chevrolet","model":"Corvette","year":1962,"price":"$189048.63","mileage":220151},{"maker":"Mazda","model":"CX-9","year":2012,"price":"$137461.27","mileage":117979},{"maker":"Ford","model":"Focus","year":2009,"price":"$186867.73","mileage":165654},{"maker":"Ford","model":"F150","year":1998,"price":"$124273.66","mileage":84547},{"maker":"Chevrolet","model":"Monte Carlo","year":1999,"price":"$48070.95","mileage":82517},{"maker":"Ford","model":"F250","year":1993,"price":"$113301.48","mileage":166718},{"maker":"Lexus","model":"ES","year":1996,"price":"$165727.68","mileage":63284},{"maker":"Dodge","model":"Ram 2500","year":2006,"price":"$197164.00","mileage":70276},{"maker":"Mercedes-Benz","model":"C-Class","year":2007,"price":"$19033.95","mileage":243064},{"maker":"Buick","model":"Skylark","year":1997,"price":"$54175.26","mileage":215401},{"maker":"Mazda","model":"MX-3","year":1993,"price":"$195404.75","mileage":66204},{"maker":"Mitsubishi","model":"Excel","year":1988,"price":"$72012.56","mileage":64063},{"maker":"Lexus","model":"LS","year":1992,"price":"$62456.18","mileage":110903},{"maker":"Audi","model":"S4","year":2000,"price":"$170396.34","mileage":24471},{"maker":"Mercedes-Benz","model":"Sprinter 2500","year":2011,"price":"$93391.63","mileage":52973},{"maker":"Volkswagen","model":"GTI","year":2007,"price":"$194420.49","mileage":232894},{"maker":"Kia","model":"Sephia","year":1996,"price":"$68153.07","mileage":71296},{"maker":"Lexus","model":"IS","year":2004,"price":"$36518.98","mileage":267348},{"maker":"Jaguar","model":"XJ Series","year":1997,"price":"$33166.59","mileage":249063},{"maker":"Mitsubishi","model":"Diamante","year":2003,"price":"$127832.08","mileage":11091},{"maker":"Hyundai","model":"Tiburon","year":1997,"price":"$69412.41","mileage":113814},{"maker":"BMW","model":"3 Series","year":1993,"price":"$36208.29","mileage":257048},{"maker":"Pontiac","model":"GTO","year":1965,"price":"$15775.36","mileage":250030},{"maker":"Jeep","model":"Liberty","year":2007,"price":"$42118.60","mileage":101707},{"maker":"Maybach","model":"62","year":2007,"price":"$33403.46","mileage":134346},{"maker":"Ferrari","model":"458 Italia","year":2012,"price":"$80770.90","mileage":272519},{"maker":"Porsche","model":"944","year":1991,"price":"$71378.18","mileage":142517},{"maker":"Toyota","model":"4Runner","year":1995,"price":"$60949.29","mileage":30776},{"maker":"Chrysler","model":"Town & Country","year":1999,"price":"$164581.25","mileage":17580},{"maker":"GMC","model":"Savana 1500","year":2004,"price":"$103019.55","mileage":231626},{"maker":"Porsche","model":"911","year":2003,"price":"$189191.46","mileage":50090},{"maker":"Oldsmobile","model":"Silhouette","year":2002,"price":"$178201.31","mileage":271423},{"maker":"Mercury","model":"Tracer","year":1999,"price":"$43598.83","mileage":213602},{"maker":"Mercury","model":"Capri","year":1991,"price":"$120198.63","mileage":66837},{"maker":"Hyundai","model":"Excel","year":1992,"price":"$94990.48","mileage":203619},{"maker":"Suzuki","model":"Reno","year":2007,"price":"$164371.98","mileage":180996},{"maker":"Toyota","model":"Tercel","year":1995,"price":"$168716.87","mileage":27927},{"maker":"Geo","model":"Prizm","year":1995,"price":"$84832.20","mileage":85849},{"maker":"Chevrolet","model":"S10 Blazer","year":1992,"price":"$192020.45","mileage":244567},{"maker":"Mitsubishi","model":"Pajero","year":1993,"price":"$108165.25","mileage":100974},{"maker":"Buick","model":"Electra","year":1987,"price":"$191507.67","mileage":141878},{"maker":"Hyundai","model":"Elantra","year":2002,"price":"$167235.85","mileage":9651},{"maker":"Cadillac","model":"DTS","year":2007,"price":"$84223.71","mileage":215834},{"maker":"Chrysler","model":"Concorde","year":1997,"price":"$164618.13","mileage":112485},{"maker":"Suzuki","model":"Samurai","year":1993,"price":"$62049.91","mileage":135713},{"maker":"Aston Martin","model":"DBS","year":2010,"price":"$155478.06","mileage":95195},{"maker":"Ford","model":"Mustang","year":1992,"price":"$5320.30","mileage":81500},{"maker":"Chevrolet","model":"S10","year":2003,"price":"$89869.40","mileage":110100},{"maker":"Honda","model":"Accord","year":2008,"price":"$72568.44","mileage":76712},{"maker":"Ford","model":"GT","year":2005,"price":"$164545.97","mileage":156242},{"maker":"Cadillac","model":"STS","year":2006,"price":"$33400.88","mileage":159009},{"maker":"Mercury","model":"Mountaineer","year":2008,"price":"$10861.82","mileage":241894},{"maker":"Mercedes-Benz","model":"CL-Class","year":2000,"price":"$2879.25","mileage":163164},{"maker":"Dodge","model":"Caliber","year":2009,"price":"$69361.30","mileage":118949},{"maker":"Infiniti","model":"G","year":2008,"price":"$63579.89","mileage":86358},{"maker":"Volvo","model":"XC90","year":2008,"price":"$127286.81","mileage":169891},{"maker":"Buick","model":"Riviera","year":1992,"price":"$95181.22","mileage":137684},{"maker":"Nissan","model":"370Z","year":2011,"price":"$10493.32","mileage":34276},{"maker":"Aston Martin","model":"Vantage","year":2009,"price":"$70518.66","mileage":194427},{"maker":"Pontiac","model":"Grand Prix","year":1973,"price":"$120089.43","mileage":227226},{"maker":"Acura","model":"Legend","year":1992,"price":"$55114.10","mileage":101631},{"maker":"Saturn","model":"Outlook","year":2008,"price":"$187005.83","mileage":51204},{"maker":"Volvo","model":"850","year":1997,"price":"$197825.63","mileage":198704},{"maker":"Mitsubishi","model":"Lancer","year":2004,"price":"$56921.75","mileage":223589},{"maker":"GMC","model":"Vandura 2500","year":1994,"price":"$188627.15","mileage":238141},{"maker":"Toyota","model":"Corolla","year":2004,"price":"$163177.75","mileage":169109},{"maker":"Mazda","model":"Tribute","year":2006,"price":"$132336.73","mileage":124936},{"maker":"Acura","model":"MDX","year":2004,"price":"$67775.77","mileage":290917},{"maker":"Lincoln","model":"Blackwood","year":2003,"price":"$37937.11","mileage":165084},{"maker":"Toyota","model":"Paseo","year":1993,"price":"$157581.37","mileage":167426},{"maker":"Volvo","model":"S60","year":2011,"price":"$11763.21","mileage":230401},{"maker":"Buick","model":"Riviera","year":1995,"price":"$59453.01","mileage":1199},{"maker":"Chrysler","model":"Pacifica","year":2004,"price":"$170614.19","mileage":24448},{"maker":"Ford","model":"GT500","year":2008,"price":"$88308.04","mileage":117723},{"maker":"Lexus","model":"LFA","year":2012,"price":"$100269.22","mileage":297417},{"maker":"Honda","model":"Ridgeline","year":2011,"price":"$163416.21","mileage":273501},{"maker":"Plymouth","model":"Reliant","year":1981,"price":"$142822.32","mileage":26910},{"maker":"Chrysler","model":"Town & Country","year":2009,"price":"$49903.32","mileage":297247},{"maker":"Test","model":"Avanti","year":1961,"price":"$38147.01","mileage":136231,"id":2158},{"maker":"Dacia","model":"1410","year":"1998","price":"$24500","id":2136},{"maker":"","model":"","year":"","price":"$","id":2543},{"maker":"Audi","model":"E-tron","year":"2021","price":"$142000","id":1245},{"maker":"Audi","model":"Q8","year":"2019","price":"$119000","id":2185},{"maker":"Dacia","model":"Logan","year":"2007","price":"$4200","id":677},{"maker":"","model":"","year":"","price":"$","id":1887},{"maker":"","model":"","year":"","price":"$","id":451},{"maker":"Dacia","model":"Sport","year":"1980","price":"$23000","id":2625},{"maker":"","model":"","year":"","price":"$","id":675},{"maker":"","model":"","year":"","price":"$","id":2011},{"maker":"","model":"","year":"","price":"$","id":270},{"maker":"","model":"","year":"","price":"$","id":1686},{"maker":"","model":"","year":"","price":"$","id":1347},{"maker":"","model":"","year":"","price":"$","id":1305},{"maker":"","model":"","year":"","price":"$","id":719},{"maker":"Maseratti","model":"Quadriga","year":"2017","price":"$23500","id":133},{"maker":"Dacia","model":"Papuc","year":"2002","price":"$350","id":823},{"maker":"Test","model":"Avanti","year":1961,"price":"$38147.01","mileage":136231,"id":1996},{"maker":"test","model":"test","year":"2000","price":"$2000","id":848},{"maker":"Maine","model":"Poimaine","year":"2000","price":"$2000","id":1553},{"maker":"Maine","model":"Raspoimaine","year":"2000","price":"$2000","id":369}]}
+{
+    "cars": [
+        {
+            "maker": "Toyota",
+            "model": "Solara",
+            "year": 2005,
+            "price": "$33686.44",
+            "mileage": 270585
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Montero",
+            "year": 1993,
+            "price": "$78262.55",
+            "mileage": 96456
+        },
+        {
+            "maker": "Toyota",
+            "model": "RAV4",
+            "year": 2007,
+            "price": "$191630.67",
+            "mileage": 128397
+        },
+        {
+            "maker": "Chrysler",
+            "model": "Prowler",
+            "year": 2001,
+            "price": "$118657.69",
+            "mileage": 153868
+        },
+        {
+            "maker": "Jeep",
+            "model": "Patriot",
+            "year": 2007,
+            "price": "$14448.32",
+            "mileage": 136241
+        },
+        {
+            "maker": "Ford",
+            "model": "E-Series",
+            "year": 1993,
+            "price": "$75020.93",
+            "mileage": 214895
+        },
+        {
+            "maker": "Mercedes-Benz",
+            "model": "SL-Class",
+            "year": 1989,
+            "price": "$198136.62",
+            "mileage": 27208
+        },
+        {
+            "maker": "Toyota",
+            "model": "Corolla",
+            "year": 2004,
+            "price": "$11476.04",
+            "mileage": 193268
+        },
+        {
+            "maker": "Chevrolet",
+            "model": "Suburban 2500",
+            "year": 2005,
+            "price": "$67710.88",
+            "mileage": 289924
+        },
+        {
+            "maker": "Ford",
+            "model": "Econoline E150",
+            "year": 1993,
+            "price": "$195076.36",
+            "mileage": 271625
+        },
+        {
+            "maker": "Nissan",
+            "model": "Sentra",
+            "year": 1992,
+            "price": "$120948.64",
+            "mileage": 47362
+        },
+        {
+            "maker": "Kia",
+            "model": "Sportage",
+            "year": 2010,
+            "price": "$166020.67",
+            "mileage": 62163
+        },
+        {
+            "maker": "Ford",
+            "model": "F250",
+            "year": 1984,
+            "price": "$21659.68",
+            "mileage": 141566
+        },
+        {
+            "maker": "Mercedes-Benz",
+            "model": "SL-Class",
+            "year": 1996,
+            "price": "$162310.39",
+            "mileage": 47318
+        },
+        {
+            "maker": "Mazda",
+            "model": "Mazdaspeed 3",
+            "year": 2010,
+            "price": "$31018.06",
+            "mileage": 166092
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Lancer",
+            "year": 2010,
+            "price": "$74732.48",
+            "mileage": 275858
+        },
+        {
+            "maker": "Hyundai",
+            "model": "HED-5",
+            "year": 2012,
+            "price": "$14185.10",
+            "mileage": 175762
+        },
+        {
+            "maker": "Volvo",
+            "model": "V50",
+            "year": 2010,
+            "price": "$172418.33",
+            "mileage": 45595
+        },
+        {
+            "maker": "Ford",
+            "model": "Th!nk",
+            "year": 2000,
+            "price": "$135521.70",
+            "mileage": 269977
+        },
+        {
+            "maker": "Jeep",
+            "model": "Liberty",
+            "year": 2011,
+            "price": "$57085.79",
+            "mileage": 216595
+        },
+        {
+            "maker": "Toyota",
+            "model": "Tacoma",
+            "year": 2005,
+            "price": "$74630.42",
+            "mileage": 13919
+        },
+        {
+            "maker": "Pontiac",
+            "model": "Turbo Firefly",
+            "year": 1988,
+            "price": "$139719.63",
+            "mileage": 200412
+        },
+        {
+            "maker": "GMC",
+            "model": "Jimmy",
+            "year": 1997,
+            "price": "$139529.18",
+            "mileage": 296091
+        },
+        {
+            "maker": "Pontiac",
+            "model": "Sunfire",
+            "year": 2003,
+            "price": "$172561.39",
+            "mileage": 274457
+        },
+        {
+            "maker": "Jaguar",
+            "model": "XJ Series",
+            "year": 2001,
+            "price": "$137567.00",
+            "mileage": 117557
+        },
+        {
+            "maker": "Ford",
+            "model": "E250",
+            "year": 2010,
+            "price": "$106583.24",
+            "mileage": 242139
+        },
+        {
+            "maker": "Ford",
+            "model": "Mustang",
+            "year": 1983,
+            "price": "$30276.56",
+            "mileage": 60542
+        },
+        {
+            "maker": "Acura",
+            "model": "RDX",
+            "year": 2012,
+            "price": "$106703.18",
+            "mileage": 178732
+        },
+        {
+            "maker": "Toyota",
+            "model": "Venza",
+            "year": 2013,
+            "price": "$166803.72",
+            "mileage": 232953
+        },
+        {
+            "maker": "Chevrolet",
+            "model": "Caprice",
+            "year": 1991,
+            "price": "$186121.77",
+            "mileage": 131121
+        },
+        {
+            "maker": "Chevrolet",
+            "model": "HHR",
+            "year": 2008,
+            "price": "$126570.19",
+            "mileage": 158372
+        },
+        {
+            "maker": "Acura",
+            "model": "Legend",
+            "year": 1990,
+            "price": "$4957.56",
+            "mileage": 4943
+        },
+        {
+            "maker": "BMW",
+            "model": "X5",
+            "year": 2004,
+            "price": "$49949.86",
+            "mileage": 101489
+        },
+        {
+            "maker": "BMW",
+            "model": "X6",
+            "year": 2008,
+            "price": "$182436.28",
+            "mileage": 150304
+        },
+        {
+            "maker": "Nissan",
+            "model": "Rogue",
+            "year": 2008,
+            "price": "$164057.75",
+            "mileage": 136237
+        },
+        {
+            "maker": "Dodge",
+            "model": "Ram 1500",
+            "year": 2006,
+            "price": "$127001.66",
+            "mileage": 225440
+        },
+        {
+            "maker": "Saab",
+            "model": "900",
+            "year": 1994,
+            "price": "$2427.38",
+            "mileage": 176482
+        },
+        {
+            "maker": "Acura",
+            "model": "TSX",
+            "year": 2009,
+            "price": "$103364.22",
+            "mileage": 137279
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Chariot",
+            "year": 1988,
+            "price": "$164447.46",
+            "mileage": 255891
+        },
+        {
+            "maker": "Kia",
+            "model": "Sephia",
+            "year": 1994,
+            "price": "$113065.53",
+            "mileage": 95124
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Pajero",
+            "year": 2006,
+            "price": "$15052.80",
+            "mileage": 145997
+        },
+        {
+            "maker": "Ford",
+            "model": "F-Series",
+            "year": 1991,
+            "price": "$21224.89",
+            "mileage": 165434
+        },
+        {
+            "maker": "BMW",
+            "model": "6 Series",
+            "year": 2007,
+            "price": "$121699.06",
+            "mileage": 227725
+        },
+        {
+            "maker": "Ford",
+            "model": "Escape",
+            "year": 2013,
+            "price": "$142623.29",
+            "mileage": 122184
+        },
+        {
+            "maker": "Pontiac",
+            "model": "GTO",
+            "year": 1966,
+            "price": "$175553.98",
+            "mileage": 87331
+        },
+        {
+            "maker": "Honda",
+            "model": "Accord",
+            "year": 1984,
+            "price": "$52722.58",
+            "mileage": 39519
+        },
+        {
+            "maker": "Mercedes-Benz",
+            "model": "S-Class",
+            "year": 2005,
+            "price": "$30827.44",
+            "mileage": 66752
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Galant",
+            "year": 2001,
+            "price": "$31807.89",
+            "mileage": 39324
+        },
+        {
+            "maker": "Pontiac",
+            "model": "Sunfire",
+            "year": 2002,
+            "price": "$48146.30",
+            "mileage": 159630
+        },
+        {
+            "maker": "GMC",
+            "model": "Suburban 2500",
+            "year": 1992,
+            "price": "$106714.77",
+            "mileage": 255024
+        },
+        {
+            "maker": "Land Rover",
+            "model": "LR3",
+            "year": 2007,
+            "price": "$177759.71",
+            "mileage": 47845
+        },
+        {
+            "maker": "Porsche",
+            "model": "928",
+            "year": 1987,
+            "price": "$182796.83",
+            "mileage": 38775
+        },
+        {
+            "maker": "Subaru",
+            "model": "Tribeca",
+            "year": 2009,
+            "price": "$57775.47",
+            "mileage": 189905
+        },
+        {
+            "maker": "Maserati",
+            "model": "Quattroporte",
+            "year": 2010,
+            "price": "$197770.17",
+            "mileage": 221446
+        },
+        {
+            "maker": "Dodge",
+            "model": "Dakota Club",
+            "year": 2002,
+            "price": "$195360.06",
+            "mileage": 50618
+        },
+        {
+            "maker": "Nissan",
+            "model": "Murano",
+            "year": 2011,
+            "price": "$194245.17",
+            "mileage": 165014
+        },
+        {
+            "maker": "Honda",
+            "model": "Passport",
+            "year": 1997,
+            "price": "$132901.25",
+            "mileage": 185621
+        },
+        {
+            "maker": "Land Rover",
+            "model": "Range Rover",
+            "year": 1989,
+            "price": "$39838.90",
+            "mileage": 137644
+        },
+        {
+            "maker": "Scion",
+            "model": "xB",
+            "year": 2004,
+            "price": "$46765.32",
+            "mileage": 184641
+        },
+        {
+            "maker": "Mercedes-Benz",
+            "model": "500E",
+            "year": 1993,
+            "price": "$113364.17",
+            "mileage": 162224
+        },
+        {
+            "maker": "Dodge",
+            "model": "Intrepid",
+            "year": 2004,
+            "price": "$97385.74",
+            "mileage": 119380
+        },
+        {
+            "maker": "Lincoln",
+            "model": "LS",
+            "year": 2004,
+            "price": "$3976.46",
+            "mileage": 136013
+        },
+        {
+            "maker": "Audi",
+            "model": "A8",
+            "year": 1998,
+            "price": "$134032.57",
+            "mileage": 90683
+        },
+        {
+            "maker": "GMC",
+            "model": "3500 Club Coupe",
+            "year": 1993,
+            "price": "$165765.90",
+            "mileage": 168949
+        },
+        {
+            "maker": "GMC",
+            "model": "Safari",
+            "year": 1998,
+            "price": "$25651.79",
+            "mileage": 51397
+        },
+        {
+            "maker": "Lotus",
+            "model": "Esprit",
+            "year": 2002,
+            "price": "$107337.58",
+            "mileage": 295080
+        },
+        {
+            "maker": "Cadillac",
+            "model": "STS",
+            "year": 2008,
+            "price": "$45088.75",
+            "mileage": 116394
+        },
+        {
+            "maker": "Buick",
+            "model": "LeSabre",
+            "year": 1988,
+            "price": "$153444.20",
+            "mileage": 88211
+        },
+        {
+            "maker": "Chevrolet",
+            "model": "Avalanche",
+            "year": 2011,
+            "price": "$190846.60",
+            "mileage": 141499
+        },
+        {
+            "maker": "Infiniti",
+            "model": "QX",
+            "year": 2005,
+            "price": "$129589.61",
+            "mileage": 257745
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Eclipse",
+            "year": 1995,
+            "price": "$170773.34",
+            "mileage": 128246
+        },
+        {
+            "maker": "Nissan",
+            "model": "Altima",
+            "year": 1999,
+            "price": "$48277.51",
+            "mileage": 50023
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Challenger",
+            "year": 2001,
+            "price": "$166353.73",
+            "mileage": 99571
+        },
+        {
+            "maker": "Cadillac",
+            "model": "Escalade",
+            "year": 2011,
+            "price": "$101429.93",
+            "mileage": 294555
+        },
+        {
+            "maker": "Land Rover",
+            "model": "Discovery",
+            "year": 2006,
+            "price": "$22476.22",
+            "mileage": 234594
+        },
+        {
+            "maker": "Nissan",
+            "model": "Altima",
+            "year": 1995,
+            "price": "$23255.48",
+            "mileage": 159676
+        },
+        {
+            "maker": "Subaru",
+            "model": "Forester",
+            "year": 2012,
+            "price": "$105700.16",
+            "mileage": 277117
+        },
+        {
+            "maker": "Audi",
+            "model": "Coupe GT",
+            "year": 1987,
+            "price": "$61263.19",
+            "mileage": 42995
+        },
+        {
+            "maker": "Ford",
+            "model": "F250",
+            "year": 1993,
+            "price": "$16606.50",
+            "mileage": 1452
+        },
+        {
+            "maker": "Maserati",
+            "model": "Spyder",
+            "year": 2002,
+            "price": "$43057.14",
+            "mileage": 197529
+        },
+        {
+            "maker": "Dodge",
+            "model": "Charger",
+            "year": 1969,
+            "price": "$177543.54",
+            "mileage": 248490
+        },
+        {
+            "maker": "Aston Martin",
+            "model": "Rapide",
+            "year": 2010,
+            "price": "$12309.44",
+            "mileage": 274886
+        },
+        {
+            "maker": "Dodge",
+            "model": "Caravan",
+            "year": 2008,
+            "price": "$177487.65",
+            "mileage": 169763
+        },
+        {
+            "maker": "Suzuki",
+            "model": "SX4",
+            "year": 2012,
+            "price": "$132556.68",
+            "mileage": 26779
+        },
+        {
+            "maker": "GMC",
+            "model": "Suburban 2500",
+            "year": 1993,
+            "price": "$120164.06",
+            "mileage": 214914
+        },
+        {
+            "maker": "Honda",
+            "model": "Insight",
+            "year": 2001,
+            "price": "$63420.73",
+            "mileage": 293300
+        },
+        {
+            "maker": "Chevrolet",
+            "model": "Express 3500",
+            "year": 2000,
+            "price": "$71963.40",
+            "mileage": 85501
+        },
+        {
+            "maker": "Mercedes-Benz",
+            "model": "SL-Class",
+            "year": 2008,
+            "price": "$36182.96",
+            "mileage": 20030
+        },
+        {
+            "maker": "Saturn",
+            "model": "S-Series",
+            "year": 2002,
+            "price": "$114933.95",
+            "mileage": 208900
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Lancer Evolution",
+            "year": 2011,
+            "price": "$136451.92",
+            "mileage": 45749
+        },
+        {
+            "maker": "Mercedes-Benz",
+            "model": "S-Class",
+            "year": 1998,
+            "price": "$188960.35",
+            "mileage": 103900
+        },
+        {
+            "maker": "Dodge",
+            "model": "Ram 3500",
+            "year": 2009,
+            "price": "$30800.10",
+            "mileage": 228124
+        },
+        {
+            "maker": "Cadillac",
+            "model": "Escalade EXT",
+            "year": 2004,
+            "price": "$187075.23",
+            "mileage": 83597
+        },
+        {
+            "maker": "Ford",
+            "model": "F250",
+            "year": 1984,
+            "price": "$3813.47",
+            "mileage": 51770
+        },
+        {
+            "maker": "Oldsmobile",
+            "model": "Achieva",
+            "year": 1993,
+            "price": "$125449.54",
+            "mileage": 126356
+        },
+        {
+            "maker": "Nissan",
+            "model": "Maxima",
+            "year": 1993,
+            "price": "$125165.73",
+            "mileage": 43790
+        },
+        {
+            "maker": "Hyundai",
+            "model": "Elantra",
+            "year": 2010,
+            "price": "$46290.00",
+            "mileage": 129777
+        },
+        {
+            "maker": "Porsche",
+            "model": "914",
+            "year": 1970,
+            "price": "$63120.29",
+            "mileage": 109859
+        },
+        {
+            "maker": "Chrysler",
+            "model": "300M",
+            "year": 2004,
+            "price": "$80951.89",
+            "mileage": 226324
+        },
+        {
+            "maker": "Volkswagen",
+            "model": "Passat",
+            "year": 2010,
+            "price": "$85934.97",
+            "mileage": 191626
+        },
+        {
+            "maker": "BMW",
+            "model": "X5",
+            "year": 2008,
+            "price": "$176812.87",
+            "mileage": 25313
+        },
+        {
+            "maker": "Audi",
+            "model": "S4",
+            "year": 1992,
+            "price": "$119932.15",
+            "mileage": 68923
+        },
+        {
+            "maker": "Maybach",
+            "model": "57S",
+            "year": 2005,
+            "price": "$174703.11",
+            "mileage": 139849
+        },
+        {
+            "maker": "Honda",
+            "model": "Pilot",
+            "year": 2012,
+            "price": "$158305.41",
+            "mileage": 234918
+        },
+        {
+            "maker": "Saab",
+            "model": "9-3",
+            "year": 2006,
+            "price": "$134413.70",
+            "mileage": 11193
+        },
+        {
+            "maker": "Acura",
+            "model": "NSX",
+            "year": 1994,
+            "price": "$135307.07",
+            "mileage": 142019
+        },
+        {
+            "maker": "Volkswagen",
+            "model": "Tiguan",
+            "year": 2010,
+            "price": "$177056.44",
+            "mileage": 293249
+        },
+        {
+            "maker": "Porsche",
+            "model": "Cayenne",
+            "year": 2005,
+            "price": "$147142.50",
+            "mileage": 48250
+        },
+        {
+            "maker": "Rolls-Royce",
+            "model": "Ghost",
+            "year": 2012,
+            "price": "$183068.00",
+            "mileage": 136581
+        },
+        {
+            "maker": "Lexus",
+            "model": "GX",
+            "year": 2004,
+            "price": "$141112.39",
+            "mileage": 45097
+        },
+        {
+            "maker": "Aston Martin",
+            "model": "V12 Vantage",
+            "year": 2012,
+            "price": "$28572.94",
+            "mileage": 2559
+        },
+        {
+            "maker": "Subaru",
+            "model": "Forester",
+            "year": 2009,
+            "price": "$166074.02",
+            "mileage": 204959
+        },
+        {
+            "maker": "Lexus",
+            "model": "GX",
+            "year": 2004,
+            "price": "$141721.08",
+            "mileage": 98811
+        },
+        {
+            "maker": "Chevrolet",
+            "model": "Corvette",
+            "year": 1962,
+            "price": "$189048.63",
+            "mileage": 220151
+        },
+        {
+            "maker": "Mazda",
+            "model": "CX-9",
+            "year": 2012,
+            "price": "$137461.27",
+            "mileage": 117979
+        },
+        {
+            "maker": "Ford",
+            "model": "Focus",
+            "year": 2009,
+            "price": "$186867.73",
+            "mileage": 165654
+        },
+        {
+            "maker": "Ford",
+            "model": "F150",
+            "year": 1998,
+            "price": "$124273.66",
+            "mileage": 84547
+        },
+        {
+            "maker": "Chevrolet",
+            "model": "Monte Carlo",
+            "year": 1999,
+            "price": "$48070.95",
+            "mileage": 82517
+        },
+        {
+            "maker": "Ford",
+            "model": "F250",
+            "year": 1993,
+            "price": "$113301.48",
+            "mileage": 166718
+        },
+        {
+            "maker": "Lexus",
+            "model": "ES",
+            "year": 1996,
+            "price": "$165727.68",
+            "mileage": 63284
+        },
+        {
+            "maker": "Dodge",
+            "model": "Ram 2500",
+            "year": 2006,
+            "price": "$197164.00",
+            "mileage": 70276
+        },
+        {
+            "maker": "Mercedes-Benz",
+            "model": "C-Class",
+            "year": 2007,
+            "price": "$19033.95",
+            "mileage": 243064
+        },
+        {
+            "maker": "Buick",
+            "model": "Skylark",
+            "year": 1997,
+            "price": "$54175.26",
+            "mileage": 215401
+        },
+        {
+            "maker": "Mazda",
+            "model": "MX-3",
+            "year": 1993,
+            "price": "$195404.75",
+            "mileage": 66204
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Excel",
+            "year": 1988,
+            "price": "$72012.56",
+            "mileage": 64063
+        },
+        {
+            "maker": "Lexus",
+            "model": "LS",
+            "year": 1992,
+            "price": "$62456.18",
+            "mileage": 110903
+        },
+        {
+            "maker": "Audi",
+            "model": "S4",
+            "year": 2000,
+            "price": "$170396.34",
+            "mileage": 24471
+        },
+        {
+            "maker": "Mercedes-Benz",
+            "model": "Sprinter 2500",
+            "year": 2011,
+            "price": "$93391.63",
+            "mileage": 52973
+        },
+        {
+            "maker": "Volkswagen",
+            "model": "GTI",
+            "year": 2007,
+            "price": "$194420.49",
+            "mileage": 232894
+        },
+        {
+            "maker": "Kia",
+            "model": "Sephia",
+            "year": 1996,
+            "price": "$68153.07",
+            "mileage": 71296
+        },
+        {
+            "maker": "Lexus",
+            "model": "IS",
+            "year": 2004,
+            "price": "$36518.98",
+            "mileage": 267348
+        },
+        {
+            "maker": "Jaguar",
+            "model": "XJ Series",
+            "year": 1997,
+            "price": "$33166.59",
+            "mileage": 249063
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Diamante",
+            "year": 2003,
+            "price": "$127832.08",
+            "mileage": 11091
+        },
+        {
+            "maker": "Hyundai",
+            "model": "Tiburon",
+            "year": 1997,
+            "price": "$69412.41",
+            "mileage": 113814
+        },
+        {
+            "maker": "BMW",
+            "model": "3 Series",
+            "year": 1993,
+            "price": "$36208.29",
+            "mileage": 257048
+        },
+        {
+            "maker": "Pontiac",
+            "model": "GTO",
+            "year": 1965,
+            "price": "$15775.36",
+            "mileage": 250030
+        },
+        {
+            "maker": "Jeep",
+            "model": "Liberty",
+            "year": 2007,
+            "price": "$42118.60",
+            "mileage": 101707
+        },
+        {
+            "maker": "Maybach",
+            "model": "62",
+            "year": 2007,
+            "price": "$33403.46",
+            "mileage": 134346
+        },
+        {
+            "maker": "Ferrari",
+            "model": "458 Italia",
+            "year": 2012,
+            "price": "$80770.90",
+            "mileage": 272519
+        },
+        {
+            "maker": "Porsche",
+            "model": "944",
+            "year": 1991,
+            "price": "$71378.18",
+            "mileage": 142517
+        },
+        {
+            "maker": "Toyota",
+            "model": "4Runner",
+            "year": 1995,
+            "price": "$60949.29",
+            "mileage": 30776
+        },
+        {
+            "maker": "Chrysler",
+            "model": "Town & Country",
+            "year": 1999,
+            "price": "$164581.25",
+            "mileage": 17580
+        },
+        {
+            "maker": "GMC",
+            "model": "Savana 1500",
+            "year": 2004,
+            "price": "$103019.55",
+            "mileage": 231626
+        },
+        {
+            "maker": "Porsche",
+            "model": "911",
+            "year": 2003,
+            "price": "$189191.46",
+            "mileage": 50090
+        },
+        {
+            "maker": "Oldsmobile",
+            "model": "Silhouette",
+            "year": 2002,
+            "price": "$178201.31",
+            "mileage": 271423
+        },
+        {
+            "maker": "Mercury",
+            "model": "Tracer",
+            "year": 1999,
+            "price": "$43598.83",
+            "mileage": 213602
+        },
+        {
+            "maker": "Mercury",
+            "model": "Capri",
+            "year": 1991,
+            "price": "$120198.63",
+            "mileage": 66837
+        },
+        {
+            "maker": "Hyundai",
+            "model": "Excel",
+            "year": 1992,
+            "price": "$94990.48",
+            "mileage": 203619
+        },
+        {
+            "maker": "Suzuki",
+            "model": "Reno",
+            "year": 2007,
+            "price": "$164371.98",
+            "mileage": 180996
+        },
+        {
+            "maker": "Toyota",
+            "model": "Tercel",
+            "year": 1995,
+            "price": "$168716.87",
+            "mileage": 27927
+        },
+        {
+            "maker": "Geo",
+            "model": "Prizm",
+            "year": 1995,
+            "price": "$84832.20",
+            "mileage": 85849
+        },
+        {
+            "maker": "Chevrolet",
+            "model": "S10 Blazer",
+            "year": 1992,
+            "price": "$192020.45",
+            "mileage": 244567
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Pajero",
+            "year": 1993,
+            "price": "$108165.25",
+            "mileage": 100974
+        },
+        {
+            "maker": "Buick",
+            "model": "Electra",
+            "year": 1987,
+            "price": "$191507.67",
+            "mileage": 141878
+        },
+        {
+            "maker": "Hyundai",
+            "model": "Elantra",
+            "year": 2002,
+            "price": "$167235.85",
+            "mileage": 9651
+        },
+        {
+            "maker": "Cadillac",
+            "model": "DTS",
+            "year": 2007,
+            "price": "$84223.71",
+            "mileage": 215834
+        },
+        {
+            "maker": "Chrysler",
+            "model": "Concorde",
+            "year": 1997,
+            "price": "$164618.13",
+            "mileage": 112485
+        },
+        {
+            "maker": "Suzuki",
+            "model": "Samurai",
+            "year": 1993,
+            "price": "$62049.91",
+            "mileage": 135713
+        },
+        {
+            "maker": "Aston Martin",
+            "model": "DBS",
+            "year": 2010,
+            "price": "$155478.06",
+            "mileage": 95195
+        },
+        {
+            "maker": "Ford",
+            "model": "Mustang",
+            "year": 1992,
+            "price": "$5320.30",
+            "mileage": 81500
+        },
+        {
+            "maker": "Chevrolet",
+            "model": "S10",
+            "year": 2003,
+            "price": "$89869.40",
+            "mileage": 110100
+        },
+        {
+            "maker": "Honda",
+            "model": "Accord",
+            "year": 2008,
+            "price": "$72568.44",
+            "mileage": 76712
+        },
+        {
+            "maker": "Ford",
+            "model": "GT",
+            "year": 2005,
+            "price": "$164545.97",
+            "mileage": 156242
+        },
+        {
+            "maker": "Cadillac",
+            "model": "STS",
+            "year": 2006,
+            "price": "$33400.88",
+            "mileage": 159009
+        },
+        {
+            "maker": "Mercury",
+            "model": "Mountaineer",
+            "year": 2008,
+            "price": "$10861.82",
+            "mileage": 241894
+        },
+        {
+            "maker": "Mercedes-Benz",
+            "model": "CL-Class",
+            "year": 2000,
+            "price": "$2879.25",
+            "mileage": 163164
+        },
+        {
+            "maker": "Dodge",
+            "model": "Caliber",
+            "year": 2009,
+            "price": "$69361.30",
+            "mileage": 118949
+        },
+        {
+            "maker": "Infiniti",
+            "model": "G",
+            "year": 2008,
+            "price": "$63579.89",
+            "mileage": 86358
+        },
+        {
+            "maker": "Volvo",
+            "model": "XC90",
+            "year": 2008,
+            "price": "$127286.81",
+            "mileage": 169891
+        },
+        {
+            "maker": "Buick",
+            "model": "Riviera",
+            "year": 1992,
+            "price": "$95181.22",
+            "mileage": 137684
+        },
+        {
+            "maker": "Nissan",
+            "model": "370Z",
+            "year": 2011,
+            "price": "$10493.32",
+            "mileage": 34276
+        },
+        {
+            "maker": "Aston Martin",
+            "model": "Vantage",
+            "year": 2009,
+            "price": "$70518.66",
+            "mileage": 194427
+        },
+        {
+            "maker": "Pontiac",
+            "model": "Grand Prix",
+            "year": 1973,
+            "price": "$120089.43",
+            "mileage": 227226
+        },
+        {
+            "maker": "Acura",
+            "model": "Legend",
+            "year": 1992,
+            "price": "$55114.10",
+            "mileage": 101631
+        },
+        {
+            "maker": "Saturn",
+            "model": "Outlook",
+            "year": 2008,
+            "price": "$187005.83",
+            "mileage": 51204
+        },
+        {
+            "maker": "Volvo",
+            "model": "850",
+            "year": 1997,
+            "price": "$197825.63",
+            "mileage": 198704
+        },
+        {
+            "maker": "Mitsubishi",
+            "model": "Lancer",
+            "year": 2004,
+            "price": "$56921.75",
+            "mileage": 223589
+        },
+        {
+            "maker": "GMC",
+            "model": "Vandura 2500",
+            "year": 1994,
+            "price": "$188627.15",
+            "mileage": 238141
+        },
+        {
+            "maker": "Toyota",
+            "model": "Corolla",
+            "year": 2004,
+            "price": "$163177.75",
+            "mileage": 169109
+        },
+        {
+            "maker": "Mazda",
+            "model": "Tribute",
+            "year": 2006,
+            "price": "$132336.73",
+            "mileage": 124936
+        },
+        {
+            "maker": "Acura",
+            "model": "MDX",
+            "year": 2004,
+            "price": "$67775.77",
+            "mileage": 290917
+        },
+        {
+            "maker": "Lincoln",
+            "model": "Blackwood",
+            "year": 2003,
+            "price": "$37937.11",
+            "mileage": 165084
+        },
+        {
+            "maker": "Toyota",
+            "model": "Paseo",
+            "year": 1993,
+            "price": "$157581.37",
+            "mileage": 167426
+        },
+        {
+            "maker": "Volvo",
+            "model": "S60",
+            "year": 2011,
+            "price": "$11763.21",
+            "mileage": 230401
+        },
+        {
+            "maker": "Buick",
+            "model": "Riviera",
+            "year": 1995,
+            "price": "$59453.01",
+            "mileage": 1199
+        },
+        {
+            "maker": "Chrysler",
+            "model": "Pacifica",
+            "year": 2004,
+            "price": "$170614.19",
+            "mileage": 24448
+        },
+        {
+            "maker": "Ford",
+            "model": "GT500",
+            "year": 2008,
+            "price": "$88308.04",
+            "mileage": 117723
+        },
+        {
+            "maker": "Lexus",
+            "model": "LFA",
+            "year": 2012,
+            "price": "$100269.22",
+            "mileage": 297417
+        },
+        {
+            "maker": "Honda",
+            "model": "Ridgeline",
+            "year": 2011,
+            "price": "$163416.21",
+            "mileage": 273501
+        },
+        {
+            "maker": "Plymouth",
+            "model": "Reliant",
+            "year": 1981,
+            "price": "$142822.32",
+            "mileage": 26910
+        },
+        {
+            "maker": "Chrysler",
+            "model": "Town & Country",
+            "year": 2009,
+            "price": "$49903.32",
+            "mileage": 297247
+        },
+        {
+            "maker": "Dacia",
+            "model": "1410",
+            "year": "1998",
+            "price": "$24500",
+            "id": 2136
+        },
+        {
+            "maker": "",
+            "model": "",
+            "year": "",
+            "price": "$",
+            "id": 2543
+        },
+        {
+            "maker": "Audi",
+            "model": "E-tron",
+            "year": "2021",
+            "price": "$142000",
+            "id": 1245
+        },
+        {
+            "maker": "Audi",
+            "model": "Q8",
+            "year": "2019",
+            "price": "$119000",
+            "id": 2185
+        },
+        {
+            "maker": "Dacia",
+            "model": "Logan",
+            "year": "2007",
+            "price": "$4200",
+            "id": 677
+        },
+        {
+            "maker": "",
+            "model": "",
+            "year": "",
+            "price": "$",
+            "id": 1887
+        },
+        {
+            "maker": "",
+            "model": "",
+            "year": "",
+            "price": "$",
+            "id": 451
+        },
+        {
+            "maker": "Dacia",
+            "model": "Sport",
+            "year": "1980",
+            "price": "$23000",
+            "id": 2625
+        },
+        {
+            "maker": "",
+            "model": "",
+            "year": "",
+            "price": "$",
+            "id": 675
+        },
+        {
+            "maker": "",
+            "model": "",
+            "year": "",
+            "price": "$",
+            "id": 2011
+        },
+        {
+            "maker": "",
+            "model": "",
+            "year": "",
+            "price": "$",
+            "id": 270
+        },
+        {
+            "maker": "",
+            "model": "",
+            "year": "",
+            "price": "$",
+            "id": 1686
+        },
+        {
+            "maker": "",
+            "model": "",
+            "year": "",
+            "price": "$",
+            "id": 1347
+        },
+        {
+            "maker": "",
+            "model": "",
+            "year": "",
+            "price": "$",
+            "id": 1305
+        },
+        {
+            "maker": "",
+            "model": "",
+            "year": "",
+            "price": "$",
+            "id": 719
+        },
+        {
+            "maker": "Maseratti",
+            "model": "Quadriga",
+            "year": "2017",
+            "price": "$23500",
+            "id": 133
+        },
+        {
+            "maker": "Dacia",
+            "model": "Papuc",
+            "year": "2002",
+            "price": "$350",
+            "id": 823
+        },
+        {
+            "maker": "Maine",
+            "model": "Poimaine",
+            "year": "2000",
+            "price": "$2000",
+            "id": 1553
+        },
+        {
+            "maker": "Maine",
+            "model": "Raspoimaine",
+            "year": "2000",
+            "price": "$2000",
+            "id": 369
+        }
+    ]
+}

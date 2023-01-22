@@ -1,4 +1,4 @@
-import { getCars,getAllMakers,getAllModelsByMaker,getAllCarsByModel,getAllCarsByMaker,addCar,deleteCar } from "./repository.js";
+import { getCars,getAllMakers,getAllModelsByMaker,getAllCarsByModel,getAllCarsByMaker,addCar,deleteCar, getCarById } from "./repository.js";
 
 import express,{json, request, response} from "express";
 
@@ -73,6 +73,19 @@ app.get('/all-cars/cars-by-maker/maker=:maker',async(request,response)=>{
 
     let allCarsByMaker=await getAllCarsByMaker(maker);
     response.json(allCarsByMaker)
+
+})
+
+app.get('/all-cars/car-by-id/id=:id',async(request,response)=>{
+
+    let id = request.params.id;
+
+    let masina = await getCarById(id);
+
+    // console.log("aici aici")
+    response.json(masina);
+
+
 
 })
 

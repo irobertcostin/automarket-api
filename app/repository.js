@@ -142,6 +142,31 @@ export async function getAllCarsByMaker(maker){
     return arr;
 }
 
+
+
+export async function getCarById(id) {
+
+    let data = await getCars();
+    for(let i=0;i<data.cars.length;i++){
+        // console.log("aici")
+
+
+
+            if(data.cars[i].id==id){
+                // console.log(data.cars[i]);
+                // console.log(`id-ul este: ${data.cars[i].id}`)
+                console.log(data.cars[i])
+                return data.cars[i];
+            }
+        
+    }
+    
+}
+
+
+
+
+
 export async function addCar(car){
 
     // get data
@@ -174,8 +199,20 @@ export async function deleteCar(id){
 
     let data = await getCars();
     data.cars=data.cars.filter(e=>e.id!=id);
-    console.log(data.cars[0]);
-    // await save(data);
+    // console.log(data.cars[0]);
+    await save(data);
+}
+
+
+
+
+
+
+export async function editCar(id){
+
+    let masina;
+
+
 }
 
 
