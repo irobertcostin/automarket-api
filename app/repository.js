@@ -155,7 +155,7 @@ export async function getCarById(id) {
         if (data.cars[i].id == id) {
             // console.log(data.cars[i]);
             // console.log(`id-ul este: ${data.cars[i].id}`)
-            console.log(data.cars[i])
+            // console.log(data.cars[i])
             return data.cars[i];
         }
 
@@ -223,6 +223,10 @@ export async function editCar(car,id) {
             }
             if(car.price){
                 element.price=car.price
+            }
+
+            if(car.mileage){
+                element.mileage=car.mileage
             }
         }
         
