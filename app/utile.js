@@ -120,25 +120,40 @@ export  function byMaxPrice(arr,maxPrice){
 
 //functie de intersectare a doi vectori si filtrare 
 
+export function byId(arr,param){
+
+    for(let i=0;i<arr.length;i++){
+        if(arr[i].id===param){
+            return arr[i];
+        }
+
+
+    }
+
+}
+
+
+
 
 
 // trebuie testata in test.js
 export function intersection(arr,arr2){
+
+    //intersectam doi vectori
 
     let x = []
 
     // numaram elementele primului vector
     for(let i=0;i<arr.length;i++){
 
+    
+        // if byId trebuie sa ia arrayul doi si fiecare id al lui i din primul array
+        // daca este un element in arr2 care are acelasi id la i-ul acesta
+        // push in x si return de arr
 
-// daca functia byMaker cu parametrii arr2 de sus, si arr[i].maker , adica elementele numarate
-    // practic de fiecare data ruleaza o functie in fiecare numarare, si daca 
-        // e mai mare decat 0 , impinge elementul
-        
-        if(byMaker(arr2,arr[i].maker).length>0){
+        if(byId(arr2,arr[i].id)){
             x.push(arr[i]);
         }
-
     }
 
     return x;
@@ -270,9 +285,15 @@ export function  filterAll( arr , query){
         switch(element.type){
 
 
-
+            // cazul maker - intersection de ID , intre sol si array dat de byMaker (adica 2 masini cazul BMW)
             case "maker":
-
+            
+            // sol e arrayul mare 
+            // sol egal cu intersectia dintre sol si arrayul determinat de byMaker, cu parametrii sol,maker
+            // byMaker va returna toate elementele din sol care au acelasi maker 
+            // intersectia va compara sol si arr byMaker 
+            // si sol devine defapt by Maker;
+            
             sol=intersection(sol,byMaker(sol,element.value));
             break;
 
