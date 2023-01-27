@@ -1,1 +1,100 @@
-{"cars":[{"maker":"Audi","model":"Q8","year":"2019","price":"$119000","mileage":125000,"id":2185},{"maker":"Lamborghini","model":"Huracan","year":2017,"price":"$125000","id":207,"mileage":25000},{"maker":"Porsche","model":"Panamera","year":2015,"price":"$46500","id":2928,"mileage":245000},{"maker":"BMW","model":"Seria 1","year":2007,"price":"$5600","id":2678,"mileage":255000},{"maker":"Ferrari","model":"612","year":2017,"price":"$195000","mileage":12000,"id":1490},{"maker":"Aston Martin","model":"DB9","year":2011,"price":"$49000","mileage":123050,"id":77},{"maker":"BMW","model":"525","year":2012,"price":"$11900","mileage":215800,"id":946},{"maker":"Jaguar","model":"XKF","year":2013,"price":"$11400","mileage":329000,"id":2790},{"maker":"Ford","model":"Mustang","year":2017,"price":"$22300","mileage":188000,"id":913},{"maker":"Ford","model":"Mustang","year":2017,"price":"$22300","mileage":188000,"id":1763},{"maker":"Bentley","model":"Continental GT","year":2007,"price":"$23000","mileage":145500,"id":2051},{"maker":"Mercedes-Benz","model":"C 300","year":2014,"price":"$12900","mileage":231800,"id":2618}]}
+{
+    "cars": [
+        {
+            "maker": "Audi",
+            "model": "Q8",
+            "year": "2019",
+            "price": "$119000",
+            "mileage": 125000,
+            "id": 2185
+        },
+        {
+            "maker": "Lamborghini",
+            "model": "Huracan",
+            "year": 2020,
+            "price": "$299000",
+            "id": 207,
+            "mileage": 47880
+        },
+        {
+            "maker": "Porsche",
+            "model": "Panamera",
+            "year": 2015,
+            "price": "$46500",
+            "id": 2928,
+            "mileage": 246000
+        },
+        {
+            "maker": "BMW",
+            "model": "Seria 1",
+            "year": 2007,
+            "price": "$5600",
+            "id": 2678,
+            "mileage": 255000
+        },
+        {
+            "maker": "Ferrari",
+            "model": "612",
+            "year": 2017,
+            "price": "$195000",
+            "mileage": 12000,
+            "id": 1490
+        },
+        {
+            "maker": "Aston Martin",
+            "model": "DB9",
+            "year": 2011,
+            "price": "$49000",
+            "mileage": 123050,
+            "id": 77
+        },
+        {
+            "maker": "BMW",
+            "model": "525",
+            "year": 2012,
+            "price": "$11900",
+            "mileage": 215800,
+            "id": 946
+        },
+        {
+            "maker": "Jaguar",
+            "model": "XKF",
+            "year": 2013,
+            "price": "$11400",
+            "mileage": 329000,
+            "id": 2790
+        },
+        {
+            "maker": "Ford",
+            "model": "Mustang",
+            "year": 2017,
+            "price": "$22300",
+            "mileage": 188000,
+            "id": 913
+        },
+        {
+            "maker": "Ford",
+            "model": "Mustang",
+            "year": 2017,
+            "price": "$22300",
+            "mileage": 188000,
+            "id": 1763
+        },
+        {
+            "maker": "Bentley",
+            "model": "Continental GT",
+            "year": 2007,
+            "price": "$23000",
+            "mileage": 145500,
+            "id": 2051
+        },
+        {
+            "maker": "Mercedes-Benz",
+            "model": "C 300",
+            "year": 2014,
+            "price": "$12900",
+            "mileage": 231800,
+            "id": 2618
+        }
+    ]
+}
