@@ -3,7 +3,7 @@
         {
             "maker": "Audi",
             "model": "Q8",
-            "year": "2019",
+            "year": 2020,
             "price": "$119000",
             "mileage": 125000,
             "id": 2185
@@ -26,7 +26,7 @@
         },
         {
             "maker": "BMW",
-            "model": "Seria 1",
+            "model": "1er",
             "year": 2007,
             "price": "$5600",
             "id": 2678,
@@ -50,7 +50,7 @@
         },
         {
             "maker": "BMW",
-            "model": "525",
+            "model": "5er",
             "year": 2012,
             "price": "$11900",
             "mileage": 215800,
@@ -63,14 +63,6 @@
             "price": "$11400",
             "mileage": 329000,
             "id": 2790
-        },
-        {
-            "maker": "Ford",
-            "model": "Mustang",
-            "year": 2017,
-            "price": "$22300",
-            "mileage": 188000,
-            "id": 913
         },
         {
             "maker": "Ford",
@@ -95,6 +87,46 @@
             "price": "$12900",
             "mileage": 231800,
             "id": 2618
+        },
+        {
+            "maker": "BMW",
+            "model": "4er",
+            "year": 2015,
+            "price": "$23000",
+            "mileage": 144251,
+            "id": 2242
+        },
+        {
+            "maker": "Alfa Romeo",
+            "model": "Giulietta",
+            "year": 2011,
+            "price": "$7900",
+            "mileage": 199000,
+            "id": 2307
+        },
+        {
+            "maker": "Dodge",
+            "model": "Charger",
+            "year": 2014,
+            "price": "$9900",
+            "mileage": 114000,
+            "id": 1913
+        },
+        {
+            "maker": "Rolls-Royce",
+            "model": "Ghost",
+            "year": 2015,
+            "price": "$335000",
+            "mileage": 47500,
+            "id": 2423
+        },
+        {
+            "maker": "Volkswagen",
+            "model": "Golf 7",
+            "year": 2014,
+            "price": "$11900",
+            "mileage": 212300,
+            "id": 2648
         }
     ]
 }

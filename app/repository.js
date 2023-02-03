@@ -142,7 +142,41 @@ export async function getAllCarsByMaker(maker) {
     return arr;
 }
 
+export async function getMostExpensive(){
 
+    let data = await getCars();
+    // data=data.cars;
+
+    
+
+    // let arr = [];
+
+    for(let i=0;i<data.length;i++){
+
+        for(let j=i+1;j<data.length;j++){
+
+            if(data[j].price.slice(1)>data[i].price.slice(1)){
+
+                let aux;
+                aux = data[i].price.slice(1);
+                data[i].price.slice(1)=data[j].price.slice(1);
+                data[j].price.slice(1)=aux;
+
+                console.log(aux)
+                
+
+
+            }
+
+
+        }
+
+    }
+
+    return data;
+
+
+}
 
 export async function getCarById(id) {
 
@@ -193,6 +227,8 @@ export async function addCar(car) {
     await save(data);
 
 }
+
+
 
 
 

@@ -1,4 +1,4 @@
-import { getCars, getAllMakers, getAllModelsByMaker, getAllCarsByModel, getAllCarsByMaker, addCar, deleteCar, getCarById, editCar } from "./repository.js";
+import { getCars, getAllMakers, getAllModelsByMaker, getAllCarsByModel, getAllCarsByMaker, addCar, deleteCar, getCarById, editCar, getMostExpensive } from "./repository.js";
 
 import { byMaker, byMinMileage, byMaxMileage, byModel, byMinYear, byMaxYear, byMinPrice, byMaxPrice, intersection, filterAll } from "./utile.js";
 
@@ -43,6 +43,16 @@ app.get('/all-cars/filtered', async (req, res) => {
 
 })
 
+
+app.get('/all-cars/most-expensive',async (req,res)=>{
+
+    let data = await getMostExpensive();
+    
+
+    res.json(data);
+
+
+})
 
 
 
