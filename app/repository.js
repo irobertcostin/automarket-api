@@ -1,3 +1,5 @@
+import { throws } from "assert";
+import { errorMonitor } from "events";
 import fs from "fs";
 
 import path from "path";
@@ -117,8 +119,17 @@ export async function getAllCarsByModel(model) {
 
     }
 
-    // arr.sort();
+
+    if(arr.length===0){
+
+        throw new Error("No such model found")
+    
+    }else {
+          // arr.sort();
     return arr;
+    }
+
+
 
 }
 
@@ -138,8 +149,19 @@ export async function getAllCarsByMaker(maker) {
 
     }
 
-    // arr.sort();
+
+    if(arr.length===0){
+    // console.log(arr.length)
+
+        throw new Error("No such maker found")
+    }
+
+    else {
+         // arr.sort();
     return arr;
+    }
+
+
 }
 
 export async function getMostExpensive(){
@@ -178,22 +200,40 @@ export async function getMostExpensive(){
 
 }
 
+
+
+
 export async function getCarById(id) {
 
     let data = await getCars();
-    for (let i = 0; i < data.cars.length; i++) {
-        // console.log("aici")
+
+    let carWoId = data.cars.filter(e=>e.id==id)
+
+    if(carWoId.length==0){
+
+        throw new Error("No valid ID found")
 
 
 
-        if (data.cars[i].id == id) {
-            // console.log(data.cars[i]);
-            // console.log(`id-ul este: ${data.cars[i].id}`)
-            // console.log(data.cars[i])
-            return data.cars[i];
+    } else {
+        for (let i = 0; i < data.cars.length; i++) {
+            // console.log("aici")
+    
+    
+    
+            if (data.cars[i].id == id) {
+                // console.log(data.cars[i]);
+                // console.log(`id-ul este: ${data.cars[i].id}`)
+                // console.log(data.cars[i])
+                return data.cars[i];
+            }
+    
         }
 
+        
     }
+
+
 
 }
 
@@ -220,11 +260,21 @@ export async function addCar(car) {
     // after no longer generating, the id is assigned to the new car
     car.id = id;
 
-    // push the car to data
+    if(car.maker===""||car.model===""||car.year===""||car.price===""||car.mileage===""){
+
+        throw new Error("Missing attributes")
+
+    }else {
+
+          // push the car to data
     data.cars.push(car);
 
     // write file to newest version
     await save(data);
+
+
+    }
+
 
 }
 
@@ -235,12 +285,30 @@ export async function addCar(car) {
 export async function editCar(car,id) {
         // cere 2 parametrii - car si id , oricare ar fi ele 
     
+
+        
         
     let data= await getCars();
-    
-        // pentru fiecare element din data 
+
+    let carWoId = data.cars.filter(e=>e.id==id)
+
+    // console.log(carWoId.length);
+
+    if(carWoId.length==0){
+
+        throw new Error("No editing possible, ID unexistent")
+
+    } else if(car.maker==""||car.model==""||car.year==""||car.price==""||car.mileage==""){
+
+        throw new Error("No editing possible, empty fields")
+
+    } else {
+
+                     // pentru fiecare element din data 
     data.cars.forEach(element => {
-        // console.log(element)
+        
+
+
         // daca element.id egal id din parametrul functiei
         if(element.id == id){
 
@@ -273,15 +341,37 @@ export async function editCar(car,id) {
     await save(data);
     // trimit un obiect care are sigur un id 
     // sa contina doar campurile care au fost completate 
+
+
+    }
+    
+
 }
 
 
 export async function deleteCar(id) {
 
     let data = await getCars();
+
+
+    let car=data.cars.filter(e=>e.id==id);
+
+
+        if(car.length==0){
+
+
+            throw new Error("masina nu exista");
+        }
+
+
     data.cars = data.cars.filter(e => e.id != id);
+
+
     // console.log(data.cars[0]);
     await save(data);
+
+
+    return car;
 }
 
 
