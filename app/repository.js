@@ -260,8 +260,10 @@ export async function addCar(car) {
     // after no longer generating, the id is assigned to the new car
     car.id = id;
 
-    if(car.maker===""||car.model===""||car.year===""||car.price===""||car.mileage===""){
 
+    // if from client , the object comes with blank attributes,
+    if(car.maker===""||car.model===""||car.year===""||car.price===""||car.mileage===""){
+        // throw new error
         throw new Error("Missing attributes")
 
     }else {
@@ -290,16 +292,21 @@ export async function editCar(car,id) {
         
     let data= await getCars();
 
+    // filter again for car with this id 
     let carWoId = data.cars.filter(e=>e.id==id)
 
     // console.log(carWoId.length);
 
+    // if none found 
     if(carWoId.length==0){
-
+        // throw new error
         throw new Error("No editing possible, ID unexistent")
 
+
+        // if nothing comes from front-end , the objects atributes
     } else if(car.maker==""||car.model==""||car.year==""||car.price==""||car.mileage==""){
 
+        // throw new error
         throw new Error("No editing possible, empty fields")
 
     } else {
@@ -353,17 +360,17 @@ export async function deleteCar(id) {
 
     let data = await getCars();
 
-
+// filter data.cars and find me ID 
     let car=data.cars.filter(e=>e.id==id);
 
-
+    // if nothing found
         if(car.length==0){
 
-
+            // throw new error
             throw new Error("masina nu exista");
         }
 
-
+        // filter again data.cars for elements with ID diff than the given
     data.cars = data.cars.filter(e => e.id != id);
 
 
