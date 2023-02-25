@@ -200,9 +200,6 @@ export async function getMostExpensive(){
 
 }
 
-
-
-
 export async function getCarById(id) {
 
     let data = await getCars();
@@ -236,9 +233,6 @@ export async function getCarById(id) {
 
 
 }
-
-
-
 
 
 export async function addCar(car) {
