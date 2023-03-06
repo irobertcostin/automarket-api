@@ -4,6 +4,8 @@ import { byMaker, byMinMileage, byMaxMileage, byModel, byMinYear, byMaxYear, byM
 
 import express, { json, request, response } from "express";
 
+import {throws} from "assert";
+
 import cors from "cors";
 
 // express server or node app
@@ -21,141 +23,144 @@ app.use(cors());
 
 
 
+// an async function called handler,which will mediate the middleware errors
+function asyncHandler(callback){
 
+    // function to return the callback 
+    return async (request,response,next)=>{
+
+        try {
+            // await the callback
+            await callback(request,response,next);
+        } catch (error) {
+            // catch the error and send it
+            next(error)
+        }
+
+    }
+
+}
+
+// 1st logger
 app.use((req,res,next)=>{
 
-
-    console.log("1st logger");
-
-
+    // if an error comes in next, error will be passed next
+    // if landed here, landed from next, because no path was not reached
+    console.log("1st logger")
     next();
     
 });
 
+
+
 // GET all data 
 
-app.get('/all-cars', async (request, response) => {
-    // console.log("ajunge?")
+app.get('/all-cars', asyncHandler (async(request, response) => {
+    
     const cars = await getCars();
-    // console.log("test")
-
-    response.json(cars)
-
-
+    
+    return response.status(200).json(cars)
 })
+);
 
-
-app.get('/all-cars/filtered', async (req, res) => {
+app.get('/all-cars/filtered', asyncHandler(async (req, res) => {
 
     let data = await getCars();
     data = await data.cars;
 
     console.log(req.query)
-    res.json(filterAll(data,req.query));
+    return res.status(200).json(filterAll(data,req.query));
 
-})
+}))
 
 
-app.get('/all-cars/most-expensive',async (req,res)=>{
+app.get('/all-cars/most-expensive',asyncHandler(async (req,res)=>{
 
     let data = await getMostExpensive();
     
 
-    res.json(data);
+    return res.status(200).json(data);
 
 
-})
+}))
 
 
 
 
-app.get('/all-cars/all-makers', async (request, response) => {
+app.get('/all-cars/all-makers', asyncHandler(async (request, response) => {
 
     // console.log("test")
     const allMakers = await getAllMakers();
     // console.log("trece de await?")
 
-    response.json(allMakers);
-})
+    return response.status(200).json(allMakers);
+}))
 
 
-app.get('/all-cars/models-by-maker/maker=:maker', async (request, response) => {
+app.get('/all-cars/models-by-maker/maker=:maker', asyncHandler(async (request, response) => {
 
 
     let maker = request.params.maker;
     // console.log(maker)
-    let allModelsByMaker = await getAllModelsByMaker(maker);
+    const allModelsByMaker = await getAllModelsByMaker(maker);
     // console.log(allModelsByMaker)
-    response.json(allModelsByMaker)
+    return response.status(200).json(allModelsByMaker)
 
 
 
-})
+}))
 
 
 
-app.get('/all-cars/cars-by-model/model=:model', async (request, response,next) => {
+app.get('/all-cars/cars-by-model/model=:model', asyncHandler(async (request, response) => {
 
 
-    try {
+    
         let model = request.params.model;
         // console.log(model)
-        let allCarsByModel = await getAllCarsByModel(model);
-        response.json(allCarsByModel)
+        const allCarsByModel = await getAllCarsByModel(model);
+        return response.status(200).json(allCarsByModel)
+
+}))
+
+
+app.get('/all-cars/cars-by-maker/maker=:maker', asyncHandler(async (request, response) => {
+
     
-    } catch (error) {
-        next(error);
-    }
-
-
-})
-
-
-app.get('/all-cars/cars-by-maker/maker=:maker', async (request, response,next) => {
-
-    try {
         let maker = request.params.maker;
 
-        let allCarsByMaker = await getAllCarsByMaker(maker);
-        response.status(210).json(allCarsByMaker)
-    } catch (error) {
-        next(error)
-    }
+        const allCarsByMaker = await getAllCarsByMaker(maker);
+        return    response.status(200).json(allCarsByMaker)
+
 
 
 })
+)
 
 
 
 
 
+app.get('/all-cars/car-by-id/id=:id', asyncHandler(async (request, response) => {
 
-app.get('/all-cars/car-by-id/id=:id', async (request, response,next) => {
 
-
-    try {
+    
         let id = request.params.id;
 
         let masina = await getCarById(id);
     
-        // console.log("aici aici")
-        response.status(209).json(masina);
+        
+        response.status(200).json(masina);
     
-    } catch (error) {
-        next(error)
-    }
-
-
-  
 
 
 })
+)
+
+app.post('/new-car', asyncHandler(async (request, response) => {
 
 
-app.post('/new-car', async (request, response,next) => {
-
-
-    try {
+    
         let car = {
 
             maker: request.body.maker,
@@ -169,21 +174,15 @@ app.post('/new-car', async (request, response,next) => {
         await addCar(car);
     
         // json response, of a JSON stringified object
-        response.status(208).json(JSON.stringify(car));
-    } catch (error) {
-        next(error)
-    }
-
-
-    
+        response.status(201).json(car);
 
 })
+)
 
-app.put('/edit-car/car-id=:id', async (request, response,next) => {
+
+app.put('/edit-car/car-id=:id', asyncHandler(async (request, response) => {
 
 
-    try {
-        
 
          // cerem id din request
     let id = request.params.id
@@ -208,59 +207,35 @@ app.put('/edit-car/car-id=:id', async (request, response,next) => {
 
 
     // json response, of a JSON stringified object
-    return response.status(204).json(JSON.stringify(car));
-
-
-
-    } catch (error) {
-        next(error)
-    }
+    return response.status(201).json(JSON.stringify(car));
 
 })
+)
 
+app.delete('/all-cars/delete/id=:id', asyncHandler(async (request, response) => {
 
-app.delete('/all-cars/delete/id=:id', async (request, response,next) => {
-
-    try{
 
         let id = request.params.id;
         let car=await deleteCar(id)
-    
-        response.status(205).json(car);
+
+        return response.status(200).json(`Successfully deleted`);
         
         
-
-    }catch(err){
-
-        // acest next trimite catre primul middle-ware care are err in app.use()
-        next(err);
-
-    }
-
 })
-
+)
 
 
 // timpul parcurs de la request la response, tot ce se intampla intre a primi un request, si a trimite un raspuns
-
-
-// prindem eroarea 
-// aterizam aici pentru ca path nu prinde nimic 
-// nu mai apare eroarea clasica, customizam noi mai jos 
-
 app.use((req,res,next)=>{
 
-
-    const error= new Error("Not found");
-
+    // if an error comes in next, error will be passed next
+    // if landed here, landed from next, because no path was not reached
+    const error = new Error("Not found")
     error.status=404;
-
-
     next(error);
+    
+});
 
-
-}
-)
 
 
 // 4 parametri e standard pentru management erori 

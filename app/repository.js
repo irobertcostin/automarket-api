@@ -99,24 +99,18 @@ export async function getAllModelsByMaker(maker) {
 export async function getAllCarsByModel(model) {
 
     let data = await getCars();
-    data = data.cars;
+    data =  data.cars;
 
     let arr = [];
 
     for (let i = 0; i < data.length; i++) {
-
         if (data[i].model === model) {
-
             // console.log(data[i]);
-
             if (arr.includes(data[i]) === false) {
                 // console.log(data[i])
                 arr.push(data[i]);
             }
-
         }
-
-
     }
 
 
@@ -184,7 +178,7 @@ export async function getMostExpensive(){
                 data[i].price.slice(1)=data[j].price.slice(1);
                 data[j].price.slice(1)=aux;
 
-                console.log(aux)
+                // console.log(aux)
                 
 
 
@@ -214,14 +208,9 @@ export async function getCarById(id) {
 
     } else {
         for (let i = 0; i < data.cars.length; i++) {
-            // console.log("aici")
-    
-    
-    
+
             if (data.cars[i].id == id) {
-                // console.log(data.cars[i]);
-                // console.log(`id-ul este: ${data.cars[i].id}`)
-                // console.log(data.cars[i])
+
                 return data.cars[i];
             }
     
@@ -361,18 +350,23 @@ export async function deleteCar(id) {
         if(car.length==0){
 
             // throw new error
-            throw new Error("masina nu exista");
-        }
+            throw new Error(`No car with ID ${id} found`);
+        }else {
+
 
         // filter again data.cars for elements with ID diff than the given
-    data.cars = data.cars.filter(e => e.id != id);
+        data.cars = data.cars.filter(e => e.id != id);
 
 
-    // console.log(data.cars[0]);
-    await save(data);
+        // console.log(data.cars[0]);
+        await save(data);
+    
+    
+        return car;
+
+        }
 
 
-    return car;
 }
 
 
